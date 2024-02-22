@@ -44,9 +44,37 @@
 
 ### Example Usage:
 
+| No. | Inputs | Expected Outputs |
+|-----|--------|------------------|
+| 1   | 15     | {1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64, 9: 81, 10: 100, 11: 121, 12: 144, 13: 169, 14: 196, 15: 225} |
+| 2   | 5      | {1: 1, 2: 4, 3: 9, 4: 16, 5: 25} |
+
+---
+
+## Exercise 3: Weekday Dictionary Lookup
+
+**Objective:** Create a program that constructs a dictionary where keys are the names of the days of the week, and values are integers representing the day's ordinal number from 0 to 6. Print the name of the day for a given ordinal number input. If the input ordinal number is out of bounds, the program should not print or report any errors.
+
+### Specifications:
+- **Data Structure:**
+  - A dictionary with:
+    - Keys as the names of the days of the week (str).
+    - Values as the ordinal numbers of the days from 0 to 6 (int).
+
+- **Input:**
+  - An integer representing the ordinal number of the day.
+
+- **Output:**
+  - The name of the day corresponding to the input ordinal number.
+
+### Example Usage:
+
 | Inputs | Expected Outputs |
 |--------|------------------|
-| 15     | {1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64, 9: 81, 10: 100, 11: 121, 12: 144, 13: 169, 14: 196, 15: 225} |
+| 3      | Wednesday        |
+| 0      | Sunday           |
+
+This exercise involves handling user input to retrieve information from a predefined dictionary without error messages for invalid inputs.
 
 
 ---
