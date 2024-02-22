@@ -66,10 +66,10 @@
 
 ### Example Usage:
 
-| Inputs | Expected Outputs |
-|--------|------------------|
-| 3      | Wednesday        |
-| 0      | Sunday           |
+| No. | Inputs | Expected Outputs |
+|-----|--------|------------------|
+| 1   | 3      | Wednesday        |
+| 2   | 0      | Sunday           |
 
 This exercise involves handling user input to retrieve information from a predefined dictionary without error messages for invalid inputs.
 
