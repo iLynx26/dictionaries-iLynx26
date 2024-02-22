@@ -75,3 +75,30 @@ This exercise involves handling user input to retrieve information from a predef
 
 
 ---
+
+## Exercise 4: Character Count Dictionary from String
+
+**Objective:** Write a program that creates a dictionary from an input string to count the occurrence of each character.
+
+### Specifications:
+- **Input:**
+  - A string from which to count characters.
+
+- **Output:**
+  - A dictionary where:
+    - Keys are characters from the input string.
+    - Values are the counts of each character's occurrences in the string.
+
+### Example Usage:
+
+| No. | Inputs                        | Expected Outputs                                                                                                                                 |
+|-----|-------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1   | Lorem ipsum dolor sit amet    | {'L': 1, 'o': 3, 'r': 2, 'e': 2, 'm': 3, ' ': 4, 'i': 2, 'p': 1, 's': 2, 'u': 1, 'd': 1, 'l': 1, 't': 2, 'a': 1}                                  |
+| 2   | hello world                  | {'h': 1, 'e': 1, 'l': 3, 'o': 2, ' ': 1, 'w': 1, 'r': 1, 'd': 1}                                                                                  |
+| 3   | character                    | {'c': 2, 'h': 2, 'a': 2, 'r': 2, 'e': 1, 't': 1}                                                                                                   |
+
+This exercise focuses on iterating over the characters in a string, counting their occurrences, and storing these counts in a dictionary for output.
+
+
+---
+
