@@ -135,3 +135,24 @@ The exercises showcase two approaches to counting character frequencies: one usi
 
 
 ---
+
+## Exercise 6: Remove Duplicates from List
+
+**Objective:** Write a program to remove duplicates from a list of integers.
+
+### Specifications:
+- **Input:**
+  - A list of integers, where duplicates may exist.
+
+- **Output:**
+  - A list of integers with duplicates removed and elements sorted in ascending order.
+
+### Example Usage:
+
+| No. | Inputs                              | Expected Outputs         |
+|-----|-------------------------------------|--------------------------|
+| 1   | 10 5 11 2 3 5 8 9 3 4 2             | 2 3 4 5 8 9 10 11        |
+| 2   | 1 2 3 4 5 1 2 3                     | 1 2 3 4 5                |
+| 3   | 7 8 9 7 8 9                         | 7 8 9                    |
+
+---
