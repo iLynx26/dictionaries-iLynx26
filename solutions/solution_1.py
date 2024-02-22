@@ -1,9 +1,14 @@
-# Read the input number without printing a prompt
-number = int(input("Enter a five-digit number: "))
+# According to the specifications, we need to create and print a dictionary.
+# Let's create the dictionary with the provided market shares and print its contents.
 
-# Calculate the sums and print the result
-first_part = (number // 10000) + ((number // 100) % 10) + (number % 10)
-print(first_part)
-second_part = ((number // 1000) % 10) + ((number // 10) % 10)
+# Creating the dictionary with search engine market shares
+search_engines_market_share = {
+    "Yahoo!": 2.09,
+    "Google": 90.15,
+    "Bing": 3.23,
+    "Baidu": 2.2
+}
 
-print(str(first_part) + str(second_part))
+# Printing the elements of the dictionary as specified
+for search_engine, market_share in search_engines_market_share.items():
+    print(f"{search_engine}: {market_share}")
