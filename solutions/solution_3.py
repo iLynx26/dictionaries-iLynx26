@@ -1,10 +1,21 @@
-# Read the input
-n = int(input())
+# Exercise 3 Solution: Weekday Dictionary Lookup
 
-# Calculate the hours, minutes, and seconds
-hours = (n // 3600) % 24
-minutes = (n // 60) % 60
-seconds = n % 60
+# Define a dictionary mapping the names of the days of the week to their ordinal numbers
+weekdays = {
+    "Sunday": 0,
+    "Monday": 1,
+    "Tuesday": 2,
+    "Wednesday": 3,
+    "Thursday": 4,
+    "Friday": 5,
+    "Saturday": 6
+}
 
-# Print the time in h:mm:ss format
-print(f"{hours}:{minutes:02d}:{seconds:02d}")
+# Prompt the user for the ordinal number of the day
+day_number = int(input("Enter the ordinal number of the day: "))
+
+# Find and print the day name by its ordinal number. If the input number is out of bounds, nothing is printed.
+for day, number in weekdays.items():
+    if number == day_number:
+        print(day)
+        break
