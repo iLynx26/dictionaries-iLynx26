@@ -28,3 +28,25 @@
 |        | Baidu: 2.2       |
 
 ---
+
+## Exercise 2: Squares Dictionary Generator
+
+**Objective:** Write a program that generates and prints a dictionary where keys are integers from 1 to `n` (inclusive) and values are the squares of the keys. `n` is an integer input provided by the user.
+
+### Specifications:
+- **Input:**
+  - `n` (int): The upper limit of the range, provided by the user.
+
+- **Output:**
+  - A dictionary where:
+    - Keys are integers from 1 to `n`.
+    - Values are the squares of the keys.
+
+### Example Usage:
+
+| Inputs | Expected Outputs |
+|--------|------------------|
+| 15     | {1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64, 9: 81, 10: 100, 11: 121, 12: 144, 13: 169, 14: 196, 15: 225} |
+
+
+---
