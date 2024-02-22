@@ -22,10 +22,7 @@
 
 | No. | Inputs | Expected Outputs |
 |---|--------|------------------|
-|1 | None   | Yahoo!: 2.09     |
-||        | Google: 90.15    |
-||        | Bing: 3.23       |
-||        | Baidu: 2.2       |
+|1 | None   | Yahoo!: 2.09<br>Google: 90.15<br>Bing: 3.23<br>Baidu: 2.2       |
 
 ---
 
