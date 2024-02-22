@@ -1,9 +1,7 @@
 # Exercises 🏋️‍♂️
 
 ## Topics Covered:
-- Defining and Instantiating Classes
-- Working with Class and Instance Variables
-- Implementing Instance Methods with Detailed Arguments Description
+- Dictionaries
 
 ---
 
