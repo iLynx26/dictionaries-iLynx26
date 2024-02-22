@@ -140,7 +140,6 @@ The exercises showcase two approaches to counting character frequencies: one usi
 
 **Objective:** Write a program to remove duplicates from a list of integers.
 
-**Specification:** Use dictionaries as well to solve the problem.
 
 ### Specifications:
 - **Input:**
@@ -148,6 +147,8 @@ The exercises showcase two approaches to counting character frequencies: one usi
 
 - **Output:**
   - A list of integers with duplicates removed and elements sorted in ascending order.
+- **Solution:**
+  - Use dictionaries as well to solve the problem.
 
 ### Example Usage:
 
