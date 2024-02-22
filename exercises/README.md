@@ -159,3 +159,26 @@ The exercises showcase two approaches to counting character frequencies: one usi
 | 3   | 7 8 9 7 8 9                         | 7 8 9                    |
 
 ---
+
+## Exercise 7: Count Unique Values in List Using Dictionaries
+
+**Objective:** Write a program to count the number of unique values in a list of integers using a dictionary.
+
+### Specifications:
+- **Input:**
+  - A list of integers, potentially containing duplicates.
+
+- **Output:**
+  - The number of unique values in the list.
+
+### Example Usage:
+
+| No. | Inputs                | Expected Outputs |
+|-----|-----------------------|------------------|
+| 1   | 1 3 4 5 6 5 1 9       | 6                |
+| 2   | 2 2 2 3 3 3           | 2                |
+| 3   | 7 8 9 10 11 12        | 6                |
+
+---
+
+
