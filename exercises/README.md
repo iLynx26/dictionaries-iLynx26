@@ -102,3 +102,36 @@ This exercise focuses on iterating over the characters in a string, counting the
 
 ---
 
+## Exercise 5: Character Frequency in a String
+
+**Objective:** Write a program to count the frequency of characters in a given string.
+
+### Specifications:
+- **Input:**
+  - A string of characters provided by the user.
+
+- **Output:**
+  - The frequency of each character in the string, printed as separate lines for each character.
+
+### Example Usage:
+
+| No. | Inputs    | Expected Outputs |
+|-----|-----------|------------------|
+| 1   | google    | g 2              |
+|     |           | o 2              |
+|     |           | l 1              |
+|     |           | e 1              |
+| 2   | test      | t 2              |
+|     |           | e 1              |
+|     |           | s 1              |
+| 3   | character | c 2              |
+|     |           | h 2              |
+|     |           | a 2              |
+|     |           | r 2              |
+|     |           | t 1              |
+|     |           | e 1              |
+
+The exercises showcase two approaches to counting character frequencies: one using a dictionary for a cumulative count and the other printing frequencies directly from the string.
+
+
+---
