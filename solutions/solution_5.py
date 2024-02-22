@@ -1,12 +1,15 @@
-# Read the input
-a = int(input())
-b = int(input())
+# Exercise 5 Solution: Character Frequency in a String
 
-# Calculate the maximum value
-max_value = (a + b + abs(a - b)) // 2
+# Prompt the user for a string
+input_string = input("Enter a string: ")
 
-# Alternative solution
-max_value = a * (a > b) + b * (b >= a)
+# Initialize an empty dictionary to store character frequencies
+char_frequency = {}
 
-# Print the maximum value
-print(max_value)
+# Count each character's frequency
+for char in input_string:
+    char_frequency[char] = char_frequency.get(char, 0) + 1
+
+# Iterate over the dictionary and print each character with its frequency
+for char, frequency in char_frequency.items():
+    print(f"{char} {frequency}")
