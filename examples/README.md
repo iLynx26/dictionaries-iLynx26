@@ -332,16 +332,65 @@ input_data = input("Enter a sequence of words separated by commas: ")
 # Split the input data into a list of words
 words = input_data.split(',')
 
-# Convert the list to a set to find unique words
-unique_words = set(words)
+# Initialize a dictionary to store unique words
+unique_words = {}
+
+# Add each word to the dictionary to ensure uniqueness
+for word in words:
+    unique_words[word.strip()] = True  # Using strip() to remove any surrounding whitespace
+
+# Get the unique words as a list
+unique_words_list = list(unique_words.keys())
 
 # Sort the unique words in lexicographical order
-sorted_unique_words = sorted(unique_words)
+sorted_unique_words = sorted(unique_words_list)
 
 # Print the sorted unique words joined by commas
 print(",".join(sorted_unique_words))
 ```
 </details>
+
+
+<!-- 587 -->
+## Example 11: Most Frequent Word - Medium 🔥 (Est. Time: 10-15 mins | Points: 20)
+
+**Problem:** The user inputs the following data: in the first line, the number of lines `n` is provided, followed by `n` lines of words. Print the word that occurs most frequently in the text. If there are several such words, print the word that appears earlier in alphabetical order.
+
+| No. | Inputs                                      | Outputs   |
+| --- | ------------------------------------------- | --------- |
+| 1   | 3<br>editor detective baker scientist<br>singer teacher<br>teacher scientist | scientist |
+| 2   | 2<br>apple banana apple<br>banana orange apple | apple    |
+| 3   | 4<br>dog cat bird dog<br>fish dog cat<br>dog bird fish<br>cat bird fish | dog      |
+| 4   | 3<br>red blue green red<br>blue green blue<br>green blue red | blue     |
+
+<details close>
+<summary><b>Python Solution</b></summary>
+
+```python
+# Read the input data
+n = int(input("Enter the number of lines: "))
+
+# Initialize a dictionary to store word frequencies
+word_freq = {}
+
+# Read the lines and count word frequencies
+for _ in range(n):
+    line = input().split()
+    for word in line:
+        if word in word_freq:
+            word_freq[word] += 1
+        else:
+            word_freq[word] = 1
+
+# Find the word with the highest frequency
+most_frequent_word = min(word_freq, key=lambda k: (-word_freq[k], k))
+
+# Print the most frequent word
+print(most_frequent_word)
+```
+</details>
+
+
 
 
 
