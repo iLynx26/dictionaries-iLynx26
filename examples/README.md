@@ -132,3 +132,67 @@ for word, freq in sorted_word_freq:
 ```
 </details>
 
+<!-- 558 -->
+## Example 5: Find Synonym - Medium 🔥 (Est. Time: 10-15 mins | Points: 20)
+
+**Problem:** Enter the number of words in the dictionary. The dictionary consists of pairs of words. Each word is a synonym of another word. All words in the dictionary are different. After entering the dictionary, another word is entered. Find its synonym.
+
+| No. | Inputs                                 | Outputs  |
+| --- | -------------------------------------- | -------- |
+| 1   | 3<br>amazing extraordinary<br>beautiful magnificent<br>delicious savory<br>extraordinary | amazing |
+| 2   | 2<br>happy joyful<br>sad gloomy<br>joyful | happy |
+| 3   | 4<br>fast quick<br>smart intelligent<br>calm peaceful<br>quick | fast |
+| 4   | 1<br>good fine<br>fine | good |
+
+<details close>
+<summary><b>Python Solution</b></summary>
+
+```python
+# Read the input data
+n = int(input("Enter the number of word pairs: "))
+dictionary = {}
+
+for _ in range(n):
+    pair = input().split()
+    dictionary[pair[0]] = pair[1]
+    dictionary[pair[1]] = pair[0]
+
+word = input("Enter a word to find its synonym: ")
+print(dictionary[word])
+```
+</details>
+
+<!-- 559 -->
+## Example 6: Count Digits - Medium 🔥 (Est. Time: 10-15 mins | Points: 20)
+
+**Problem:** A sequence of numbers from `1` to `9` ending with zero is entered. In total, no more than `100000` numbers will be entered. Count the number of ones, twos, threes, etc. in this sequence and print the result. The output should always contain `9` numbers.
+
+| No. | Inputs                           | Outputs          |
+| --- | -------------------------------- | ---------------- |
+| 1   | 1 1 4 1 5 8 6 3 5 1 0            | 4 0 1 1 2 1 0 1 0 |
+| 2   | 2 2 2 2 3 3 3 0                  | 0 4 3 0 0 0 0 0 0 |
+| 3   | 9 8 7 6 5 4 3 2 1 0              | 1 1 1 1 1 1 1 1 1 |
+| 4   | 1 2 3 4 5 6 7 8 9 1 2 3 4 0      | 2 2 2 2 1 1 1 1 1 |
+
+<details close>
+<summary><b>Python Solution</b></summary>
+
+```python
+# Read the input data
+input_data = input("Enter a sequence of numbers ending with zero: ")
+
+# Split the input data into a list of numbers
+numbers = list(map(int, input_data.split()))
+
+# Initialize a list to store the count of each digit from 1 to 9
+counts = [0] * 9
+
+# Count the occurrences of each number
+for number in numbers:
+    if number != 0:
+        counts[number - 1] += 1
+
+# Print the result
+print(" ".join(map(str, counts)))
+```
+</details>
