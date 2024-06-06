@@ -556,32 +556,34 @@ print("\n".join(output))
 # Read the number of students
 n = int(input())
 
-# Initialize sets for languages
-all_languages = set()
-at_least_one_language = set()
-
-# Initialize a variable to store languages known by all students
-known_by_all = None
+# Initialize dictionaries to store language counts
+language_count = {}
+all_languages_set = set()
 
 # Read the languages known by each student
 for _ in range(n):
     m = int(input())
     languages = set(input().strip() for _ in range(m))
     
-    # Update sets for all languages and at least one language
-    if known_by_all is None:
-        known_by_all = languages
-    else:
-        known_by_all &= languages
+    # Update the counts of each language
+    for language in languages:
+        if language in language_count:
+            language_count[language] += 1
+        else:
+            language_count[language] = 1
     
-    at_least_one_language |= languages
+    # Update the set of all languages
+    all_languages_set.update(languages)
+
+# Determine the languages known by all students
+known_by_all = {lang for lang, count in language_count.items() if count == n}
 
 # Prepare the output
 output = []
 output.append(str(len(known_by_all)))
 output.extend(sorted(known_by_all))
-output.append(str(len(at_least_one_language)))
-output.extend(sorted(at_least_one_language))
+output.append(str(len(all_languages_set)))
+output.extend(sorted(all_languages_set))
 
 # Print the result
 print("\n".join(output))
