@@ -383,7 +383,13 @@ for _ in range(n):
             word_freq[word] = 1
 
 # Find the word with the highest frequency
-most_frequent_word = min(word_freq, key=lambda k: (-word_freq[k], k))
+most_frequent_word = None
+highest_frequency = -1
+
+for word, frequency in word_freq.items():
+    if frequency > highest_frequency or (frequency == highest_frequency and word < most_frequent_word):
+        most_frequent_word = word
+        highest_frequency = frequency
 
 # Print the most frequent word
 print(most_frequent_word)
