@@ -92,3 +92,43 @@ print(len(char_count))
 ```
 </details>
 
+
+<!-- 543 -->
+## Example 4: Word Frequency Count - Medium 🔥 (Est. Time: 10-15 mins | Points: 20)
+
+**Problem:** Write a program to count the frequency of words in the given sentence. The output should be in reverse alphanumeric order.
+
+| No. | Inputs                               | Outputs                              |
+| --- | ------------------------------------ | ------------------------------------ |
+| 1   | The five boxing wizards jump quickly | wizards: 1<br>quickly: 1<br>jump: 1<br>five: 1<br>boxing: 1<br>The: 1 |
+| 2   | She sells sea shells by the sea shore | shore: 1<br>shells: 1<br>the: 1<br>sea: 2<br>she: 1<br>sells: 1<br>by: 1 |
+| 3   | Peter Piper picked a peck of pickled peppers | peppers: 1<br>pickled: 1<br>peck: 1<br>Piper: 1<br>picked: 1<br>Peter: 1<br>a: 1<br>of: 1 |
+| 4   | A quick brown fox jumps over the lazy dog | the: 1<br>quick: 1<br>over: 1<br>lazy: 1<br>jumps: 1<br>fox: 1<br>dog: 1<br>brown: 1<br>A: 1 |
+
+<details close>
+<summary><b>Python Solution</b></summary>
+
+```python
+# Read the input data
+input_data = input("Enter a sentence: ")
+
+# Split the input data into a list of words
+words = input_data.split()
+
+# Create a dictionary to store the frequency of each word
+word_freq = {}
+for word in words:
+    if word in word_freq:
+        word_freq[word] += 1
+    else:
+        word_freq[word] = 1
+
+# Sort the dictionary by keys in reverse alphanumeric order
+sorted_word_freq = sorted(word_freq.items(), key=lambda x: x[0], reverse=True)
+
+# Print the result
+for word, freq in sorted_word_freq:
+    print(f"{word}: {freq}")
+```
+</details>
+
