@@ -196,3 +196,46 @@ for number in numbers:
 print(" ".join(map(str, counts)))
 ```
 </details>
+
+
+
+<!-- 563 -->
+## Example 7: Count Word Occurrences - Medium 🔥 (Est. Time: 10-15 mins | Points: 20)
+
+**Problem:** A text is entered in one line. For each word in the text, count the number of its occurrences before it.
+
+| No. | Inputs                        | Outputs        |
+| --- | ----------------------------- | -------------- |
+| 1   | one two one two three two four three | 0 0 1 1 0 2 0 1 |
+| 2   | hello world hello everyone    | 0 0 1 0        |
+| 3   | good better best good better  | 0 0 0 1 1      |
+| 4   | a a a a b b b b               | 0 1 2 3 0 1 2 3|
+
+<details close>
+<summary><b>Python Solution</b></summary>
+
+```python
+# Read the input data
+input_data = input("Enter a sequence of words: ")
+
+# Split the input data into a list of words
+words = input_data.split()
+
+# Create a dictionary to store the occurrences of each word
+word_counts = {}
+result = []
+
+# Count the occurrences of each word
+for word in words:
+    if word in word_counts:
+        result.append(word_counts[word])
+        word_counts[word] += 1
+    else:
+        result.append(0)
+        word_counts[word] = 1
+
+# Print the result
+print(" ".join(map(str, result)))
+
+```
+</details>
