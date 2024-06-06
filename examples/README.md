@@ -396,7 +396,98 @@ print(most_frequent_word)
 ```
 </details>
 
+<!-- 591 -->
+## Example 12: Queen's Attack Range - Medium 🔥 (Est. Time: 10-15 mins | Points: 20)
 
+**Problem:** A queen is placed on a chessboard. Mark the position of the queen on the board and all the squares it attacks. Mark the square where the queen stands with the letter `Q`, the squares it attacks with the symbol `*`, and fill the rest of the squares with dots. The program receives the coordinates of the queen on the chessboard in chess notation, i.e., in the form `e2`, where the first character indicates the column (letter from `a` to `h`, left to right), and the second character indicates the row (digit from `1` to `8`, bottom to top). Print the chessboard as shown in the output data.
+
+| No. | Inputs | Outputs |
+| --- | ------ | ------- |
+| 1   | f3     | * . . . . * . .<br>. * . . . * . .<br>. . * . . * . .<br>. . . * . * . *<br>. . . . * * * .<br>* * * * * Q * *<br>. . . . * * * .<br>. . . * . * . * |
+| 2   | d5     | * . * . * . * .<br>. * * * * * * .<br>* * . * . * . *<br>. * . Q . * . .<br>* * . * . * . *<br>. * * * * * * .<br>* . * . * . * .<br>. * . * . * . * |
+| 3   | a1     | Q * * * * * * *<br>* * * * * * * *<br>* * * * * * * *<br>* * * * * * * *<br>* * * * * * * *<br>* * * * * * * *<br>* * * * * * * *<br>* * * * * * * * |
+| 4   | h8     | * * * * * * * Q<br>. * * * * * * *<br>* . * * * * * *<br>. * . * * * * *<br>* . * . * * * *<br>. * . * . * * *<br>* . * . * . * *<br>. * . * . * . * |
+
+<details close>
+<summary><b>Python Solution</b></summary>
+
+```python
+# Read the input data
+position = input("Enter the position of the queen (e.g., e2): ")
+
+# Initialize the chessboard
+board = [['.'] * 8 for _ in range(8)]
+
+# Convert position to board indices
+col = ord(position[0]) - ord('a')
+row = 8 - int(position[1])
+
+# Mark the queen's position
+board[row][col] = 'Q'
+
+# Mark the rows and columns
+for i in range(8):
+    if i != row:
+        board[i][col] = '*'
+    if i != col:
+        board[row][i] = '*'
+
+# Mark the diagonals
+for i in range(1, 8):
+    if row + i < 8 and col + i < 8:
+        board[row + i][col + i] = '*'
+    if row - i >= 0 and col - i >= 0:
+        board[row - i][col - i] = '*'
+    if row + i < 8 and col - i >= 0:
+        board[row + i][col - i] = '*'
+    if row - i >= 0 and col + i < 8:
+        board[row - i][col + i] = '*'
+
+# Print the chessboard
+for row in board:
+    print(" ".join(row))
+```
+</details>
+
+
+<!-- 598 -->
+## Example 13: Word Length Statistics - Medium 🔥 (Est. Time: 10-15 mins | Points: 20)
+
+**Problem:** The program receives a line containing words separated by spaces. For each word in the text, count the number of times it appears before it. The output should be in reverse alphanumeric order.
+
+| No. | Inputs                           | Outputs           |
+| --- | -------------------------------- | ----------------- |
+| 1   | Errors should never pass silently. | 4: 1<br>5: 1<br>6: 2<br>9: 1 |
+| 2   | Practice makes perfect.         | 8: 1<br>7: 1<br>6: 1<br>5: 1 |
+| 3   | To be or not to be, that is the question. | 10: 1<br>6: 1<br>5: 1<br>3: 1<br>2: 3 |
+| 4   | Stay hungry, stay foolish.       | 8: 1<br>7: 1<br>5: 2          |
+
+<details close>
+<summary><b>Python Solution</b></summary>
+
+```python
+# Read the input data
+input_data = input("Enter a sequence of words separated by spaces: ")
+
+# Split the input data into words
+words = input_data.split()
+
+# Count the frequency of each word length
+length_counts = {}
+for word in words:
+    length = len(word)
+    if length not in length_counts:
+        length_counts[length] = 0
+    length_counts[length] += 1
+
+# Sort the lengths in ascending order
+sorted_lengths = sorted(length_counts.keys())
+
+# Print the statistics
+for length in sorted_lengths:
+    print(f"{length}: {length_counts[length]}")
+```
+</details>
 
 
 
