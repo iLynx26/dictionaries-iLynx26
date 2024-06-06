@@ -40,7 +40,7 @@ print(squares_dict)
 | 3   | Python is fun             | {'P': 1, 'y': 1, 't': 1, 'h': 1, 'o': 1, 'n': 2, ' ': 2, 'i': 1, 's': 1, 'f': 1, 'u': 1} |
 | 4   | Data Science              | {'D': 1, 'a': 2, 't': 1, ' ': 1, 'S': 1, 'c': 2, 'i': 1, 'e': 2, 'n': 1} |
 
-<details open>
+<details close>
 <summary><b>Python Solution</b></summary>
 
 ```python
@@ -59,3 +59,36 @@ for char in input_data:
 print(char_count)
 ```
 </details>
+
+<!-- 536 -->
+## Example 3: Count Unique Values in List - Easy 😊 (Est. Time: 10 mins | Points: 10)
+
+**Problem:** Given a list of integers, determine the number of unique values.
+
+| No. | Inputs                | Outputs               |
+| --- | --------------------- | --------------------- |
+| 1   | 1 3 4 5 6 5 1 9       | 6                     |
+| 2   | 2 2 2 2 2             | 1                     |
+| 3   | 7 8 9 10 11           | 5                     |
+| 4   | 3 1 4 1 5 9           | 5                     |
+
+<details close>
+<summary><b>Python Solution</b></summary>
+
+```python
+# Read the input data
+input_data = input("Enter a string: ")
+
+# Create a dictionary to count the occurrences of each character
+char_count = {}
+for char in input_data:
+    if char in char_count:
+        char_count[char] += 1
+    else:
+        char_count[char] = 1
+
+# Print the number of elements
+print(len(char_count))
+```
+</details>
+
