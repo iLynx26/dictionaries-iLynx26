@@ -489,5 +489,52 @@ for length in sorted_lengths:
 ```
 </details>
 
+<!-- 599 -->
+## Example 14: Latin-English Dictionary - Medium 🔥 (Est. Time: 10-15 mins | Points: 20)
+
+**Problem:** The program receives a string containing an integer `n` - the number of English words in an English-Latin dictionary, followed by `n` translations of these words. Each entry is in a separate line containing the first English word, followed by a hyphen surrounded by spaces, and then a comma-separated list of translations of this English word in Latin. All words consist only of English letters. Translations are sorted lexicographically. The order of English words in the dictionary is also lexicographical. Print the corresponding Latin-English dictionary in the same format (number of words and their translations). Specifically, the first word in the line of words should be the lexicographically smallest translation of the Latin word, then the second in this order, and so on. The English words in each line should also be sorted lexicographically.
+
+| No. | Inputs                                                               | Outputs                                                                     |
+| --- | -------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| 1   | 3<br>apple - malum, pomum, popula<br>fruit - baca, bacca, popum<br>punishment - malum, multa | 7<br>baca - fruit<br>bacca - fruit<br>malum - apple, punishment<br>multa - punishment<br>pomum - apple<br>popula - apple<br>popum - fruit |
+| 2   | 2<br>day - dies<br>night - nox, noctis | 3<br>dies - day<br>noctis - night<br>nox - night |
+| 3   | 1<br>light - lux, lumen | 2<br>lumen - light<br>lux - light |
+| 4   | 2<br>tree - arbor<br>flower - flos, flora | 3<br>arbor - tree<br>flos - flower<br>flora - flower |
+
+<details close>
+<summary><b>Python Solution</b></summary>
+
+```python
+# Read the number of entries
+n = int(input())
+
+# Initialize dictionaries
+eng_to_lat = {}
+lat_to_eng = {}
+
+# Read each entry and populate dictionaries
+for _ in range(n):
+    line = input()
+    eng_word, lat_words = line.split(" - ")
+    lat_words = lat_words.split(", ")
+    
+    for lat_word in lat_words:
+        if lat_word not in lat_to_eng:
+            lat_to_eng[lat_word] = []
+        lat_to_eng[lat_word].append(eng_word)
+
+# Prepare the output
+output = []
+output.append(str(len(lat_to_eng)))
+
+for lat_word in sorted(lat_to_eng.keys()):
+    eng_words = ", ".join(sorted(lat_to_eng[lat_word]))
+    output.append(f"{lat_word} - {eng_words}")
+
+# Print the result
+print("\n".join(output))
+```
+</details>
+
 
 
