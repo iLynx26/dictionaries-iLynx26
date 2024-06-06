@@ -236,6 +236,112 @@ for word in words:
 
 # Print the result
 print(" ".join(map(str, result)))
-
 ```
 </details>
+
+<!-- 575 -->
+## Example 8: Count Unique Words - Medium 🔥 (Est. Time: 10-15 mins | Points: 20)
+
+**Problem:** Given an integer `n` followed by `n` lines of text, print the number of unique words that appear in the text. A word is defined as a sequence of characters that does not contain spaces. Words are separated by one or more spaces or newline characters. Punctuation marks are part of the word in this definition.
+
+| No. | Inputs                        | Outputs        |
+| --- | ----------------------------- | -------------- |
+| 1   | 3<br>A fool is a person who thinks he's smarter than me.<br>Yet wolves are more noble sheep, it is difficult for them to imagine their life without the latter. And the sheep?! It's shame to say!<br>Only when he left the chariot, everyone understood that it was a coachman. | 43 |
+| 2   | 2<br>This is a test.<br>This is another test. | 5 |
+| 3   | 4<br>The quick brown fox.<br>Jumps over the lazy dog.<br>The dog barked.<br>The fox ran away. | 11 |
+| 4   | 1<br>Simple text with simple words. | 5 |
+
+<details close>
+<summary><b>Python Solution</b></summary>
+
+```python
+# Read the number of lines
+n = int(input())
+
+# Initialize a dictionary to store unique words
+unique_words = {}
+
+# String of punctuation characters
+punctuation = '''!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~'''
+
+# Read each line and add words to the dictionary
+for _ in range(n):
+    line = input()
+    words = line.split()
+    for word in words:
+        # Remove punctuation from the word
+        clean_w = ''.join(char for char in word if char not in punctuation)
+        if clean_w:  # Ensure the cleaned word is not empty
+            unique_words[clean_w] = True
+
+# Print the number of unique words
+print(len(unique_words))
+```
+</details>
+
+<!-- 576 -->
+## Example 9: Count Distinct Numbers - Medium 🔥 (Est. Time: 10-15 mins | Points: 20)
+
+**Problem:** Given a list of integers which may contain up to `100000` numbers, determine how many distinct numbers are in it.
+
+| No. | Inputs                        | Outputs        |
+| --- | ----------------------------- | -------------- |
+| 1   | 2 5 7 7 9 0 3 4<br>3 3 4 4 5 1 | 7<br>4         |
+| 2   | 1 2 2 3 3 4 4 5 5 6 6 7 7 8 8 9 | 9              |
+| 3   | 10 10 20 20 30 30 40 40 50 50 60 60 70 70 80 80 90 90 100 | 10 |
+| 4   | 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 | 1              |
+
+<details close>
+<summary><b>Python Solution</b></summary>
+
+```python
+# Read the input data
+input_data = input("Enter a list of integers separated by spaces: ")
+
+# Split the input data into a list of integers
+numbers = list(map(int, input_data.split()))
+
+# Convert the list to a set to find unique numbers
+unique_numbers = set(numbers)
+
+# Print the number of unique numbers
+print(len(unique_numbers))
+```
+</details>
+
+
+<!-- 577 -->
+## Example 10: Print Unique Words - Medium 🔥 (Est. Time: 10-15 mins | Points: 20)
+
+**Problem:** Given a sequence of words separated by commas, print the unique words in lexicographical order as in the output data.
+
+| No. | Inputs          | Outputs      |
+| --- | --------------- | ------------ |
+| 1   | abc,abc,bac,aca | abc,aca,bac  |
+| 2   | dog,cat,bat,dog | bat,cat,dog  |
+| 3   | sun,moon,star,sun,moon | moon,star,sun |
+| 4   | apple,banana,apple,orange | apple,banana,orange |
+
+<details close>
+<summary><b>Python Solution</b></summary>
+    
+```python
+# Read the input data
+input_data = input("Enter a sequence of words separated by commas: ")
+
+# Split the input data into a list of words
+words = input_data.split(',')
+
+# Convert the list to a set to find unique words
+unique_words = set(words)
+
+# Sort the unique words in lexicographical order
+sorted_unique_words = sorted(unique_words)
+
+# Print the sorted unique words joined by commas
+print(",".join(sorted_unique_words))
+```
+</details>
+
+
+
