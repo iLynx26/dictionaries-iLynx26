@@ -1,7 +1,7 @@
 # Examples 🏋️‍♂️
 
 <!-- 512 -->
-## Example 1: Print Dictionary Elements - Easy 😊 (Est. Time: 10 mins | Points: 10)
+## Example 1: Print Dictionary Elements
 
 **Problem:** Print the elements of a dictionary where keys are numbers from `1` to `n` (both inclusive) and values are the squares of the keys. `n` is an integer input provided by the user.
 
@@ -29,7 +29,7 @@ print(squares_dict)
 
 
 <!-- 516 -->
-## Example 2: Character Count in String - Easy 😊 (Est. Time: 10 mins | Points: 10)
+## Example 2: Character Count in String
 
 **Problem:** Write a program to create a dictionary from an input string to count the number of occurrences of each character.
 
@@ -61,7 +61,7 @@ print(char_count)
 </details>
 
 <!-- 536 -->
-## Example 3: Count Unique Values in List - Easy 😊 (Est. Time: 10 mins | Points: 10)
+## Example 3: Count Unique Values in List
 
 **Problem:** Given a list of integers, determine the number of unique values.
 
@@ -94,7 +94,7 @@ print(len(char_count))
 
 
 <!-- 543 -->
-## Example 4: Word Frequency Count - Medium 🔥 (Est. Time: 10-15 mins | Points: 20)
+## Example 4: Word Frequency Count
 
 **Problem:** Write a program to count the frequency of words in the given sentence. The output should be in reverse alphanumeric order.
 
@@ -133,7 +133,7 @@ for word, freq in sorted_word_freq:
 </details>
 
 <!-- 558 -->
-## Example 5: Find Synonym - Medium 🔥 (Est. Time: 10-15 mins | Points: 20)
+## Example 5: Find Synonym
 
 **Problem:** Enter the number of words in the dictionary. The dictionary consists of pairs of words. Each word is a synonym of another word. All words in the dictionary are different. After entering the dictionary, another word is entered. Find its synonym.
 
@@ -163,7 +163,7 @@ print(dictionary[word])
 </details>
 
 <!-- 559 -->
-## Example 6: Count Digits - Medium 🔥 (Est. Time: 10-15 mins | Points: 20)
+## Example 6: Count Digits
 
 **Problem:** A sequence of numbers from `1` to `9` ending with zero is entered. In total, no more than `100000` numbers will be entered. Count the number of ones, twos, threes, etc. in this sequence and print the result. The output should always contain `9` numbers.
 
@@ -200,7 +200,7 @@ print(" ".join(map(str, counts)))
 
 
 <!-- 563 -->
-## Example 7: Count Word Occurrences - Medium 🔥 (Est. Time: 10-15 mins | Points: 20)
+## Example 7: Count Word Occurrences
 
 **Problem:** A text is entered in one line. For each word in the text, count the number of its occurrences before it.
 
@@ -240,7 +240,7 @@ print(" ".join(map(str, result)))
 </details>
 
 <!-- 575 -->
-## Example 8: Count Unique Words - Medium 🔥 (Est. Time: 10-15 mins | Points: 20)
+## Example 8: Count Unique Words
 
 **Problem:** Given an integer `n` followed by `n` lines of text, print the number of unique words that appear in the text. A word is defined as a sequence of characters that does not contain spaces. Words are separated by one or more spaces or newline characters. Punctuation marks are part of the word in this definition.
 
@@ -280,7 +280,7 @@ print(len(unique_words))
 </details>
 
 <!-- 576 -->
-## Example 9: Count Distinct Numbers - Medium 🔥 (Est. Time: 10-15 mins | Points: 20)
+## Example 9: Count Distinct Numbers
 
 **Problem:** Given a list of integers which may contain up to `100000` numbers, determine how many distinct numbers are in it.
 
@@ -311,7 +311,7 @@ print(len(unique_numbers))
 
 
 <!-- 577 -->
-## Example 10: Print Unique Words - Medium 🔥 (Est. Time: 10-15 mins | Points: 20)
+## Example 10: Print Unique Words
 
 **Problem:** Given a sequence of words separated by commas, print the unique words in lexicographical order as in the output data.
 
@@ -352,7 +352,7 @@ print(",".join(sorted_unique_words))
 
 
 <!-- 587 -->
-## Example 11: Most Frequent Word - Medium 🔥 (Est. Time: 10-15 mins | Points: 20)
+## Example 11: Most Frequent Word
 
 **Problem:** The user inputs the following data: in the first line, the number of lines `n` is provided, followed by `n` lines of words. Print the word that occurs most frequently in the text. If there are several such words, print the word that appears earlier in alphabetical order.
 
@@ -397,7 +397,7 @@ print(most_frequent_word)
 </details>
 
 <!-- 591 -->
-## Example 12: Queen's Attack Range - Medium 🔥 (Est. Time: 10-15 mins | Points: 20)
+## Example 12: Queen's Attack Range
 
 **Problem:** A queen is placed on a chessboard. Mark the position of the queen on the board and all the squares it attacks. Mark the square where the queen stands with the letter `Q`, the squares it attacks with the symbol `*`, and fill the rest of the squares with dots. The program receives the coordinates of the queen on the chessboard in chess notation, i.e., in the form `e2`, where the first character indicates the column (letter from `a` to `h`, left to right), and the second character indicates the row (digit from `1` to `8`, bottom to top). Print the chessboard as shown in the output data.
 
@@ -451,7 +451,7 @@ for row in board:
 
 
 <!-- 598 -->
-## Example 13: Word Length Statistics - Medium 🔥 (Est. Time: 10-15 mins | Points: 20)
+## Example 13: Word Length Statistics
 
 **Problem:** The program receives a line containing words separated by spaces. For each word in the text, count the number of times it appears before it. The output should be in reverse alphanumeric order.
 
@@ -490,7 +490,7 @@ for length in sorted_lengths:
 </details>
 
 <!-- 599 -->
-## Example 14: Latin-English Dictionary - Medium 🔥 (Est. Time: 10-15 mins | Points: 20)
+## Example 14: Latin-English Dictionary
 
 **Problem:** The program receives a string containing an integer `n` - the number of English words in an English-Latin dictionary, followed by `n` translations of these words. Each entry is in a separate line containing the first English word, followed by a hyphen surrounded by spaces, and then a comma-separated list of translations of this English word in Latin. All words consist only of English letters. Translations are sorted lexicographically. The order of English words in the dictionary is also lexicographical. Print the corresponding Latin-English dictionary in the same format (number of words and their translations). Specifically, the first word in the line of words should be the lexicographically smallest translation of the Latin word, then the second in this order, and so on. The English words in each line should also be sorted lexicographically.
 
@@ -530,6 +530,58 @@ output.append(str(len(lat_to_eng)))
 for lat_word in sorted(lat_to_eng.keys()):
     eng_words = ", ".join(sorted(lat_to_eng[lat_word]))
     output.append(f"{lat_word} - {eng_words}")
+
+# Print the result
+print("\n".join(output))
+```
+</details>
+
+
+<!-- 601 -->
+## Example 15: Language Knowledge
+
+**Problem:** Each of `n` students in a school knows `m` languages. Determine which languages all students know and languages that at least one student knows. The first line of the input contains the number of students `n`. The next `n` lines contain the number of languages `m`, followed by `m` lines listing the languages known by the `i`-th student. The length of the language names does not exceed `1000` characters, and the number of different languages does not exceed `1000` (`1 ≤ n ≤ 1000`, `1 ≤ m ≤ 500`). In the first line, print the number of languages known by all students. From the second line, print the list of such languages. Then print the number of languages known by at least one student, followed by the list of such languages.
+
+| No. | Inputs                                                           | Outputs                              |
+| --- | ---------------------------------------------------------------- | ------------------------------------ |
+| 1   | 3<br>3<br>Ukrainian<br>English<br>Polish<br>2<br>Ukrainian<br>English<br>1<br>English | 1<br>English<br>3<br>English<br>Polish<br>Ukrainian |
+| 2   | 2<br>2<br>German<br>French<br>1<br>German | 1<br>German<br>2<br>French<br>German |
+| 3   | 4<br>3<br>Spanish<br>English<br>Italian<br>3<br>Spanish<br>English<br>French<br>3<br>Spanish<br>English<br>German<br>2<br>Spanish<br>English | 1<br>Spanish<br>English<br>4<br>English<br>French<br>German<br>Italian<br>Spanish |
+| 4   | 2<br>1<br>Japanese<br>1<br>Chinese | 0<br>2<br>Chinese<br>Japanese |
+
+<details close>
+<summary><b>Python Solution</b></summary>
+
+```python
+# Read the number of students
+n = int(input())
+
+# Initialize sets for languages
+all_languages = set()
+at_least_one_language = set()
+
+# Initialize a variable to store languages known by all students
+known_by_all = None
+
+# Read the languages known by each student
+for _ in range(n):
+    m = int(input())
+    languages = set(input().strip() for _ in range(m))
+    
+    # Update sets for all languages and at least one language
+    if known_by_all is None:
+        known_by_all = languages
+    else:
+        known_by_all &= languages
+    
+    at_least_one_language |= languages
+
+# Prepare the output
+output = []
+output.append(str(len(known_by_all)))
+output.extend(sorted(known_by_all))
+output.append(str(len(at_least_one_language)))
+output.extend(sorted(at_least_one_language))
 
 # Print the result
 print("\n".join(output))
