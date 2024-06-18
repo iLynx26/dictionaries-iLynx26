@@ -84,3 +84,27 @@ LOWER CASE {count}
 ### Note:
 This exercise tests the ability to work with strings and count specific character cases in Python.
 
+<!-- 522 -->
+
+## Exercise 4: Character Frequency Count - Easy 😊 (Est. Time: 10 mins | Points: 10)
+
+**Problem:** Write a program to count the frequency of each character in the given string.
+
+### Input:
+- A string of characters.
+
+### Output:
+- The frequency of each character in the format "character count", each on a new line.
+
+### Examples:
+
+| No. | Inputs | Outputs  |
+| --- | ------ | -------- |
+| 1   | google | g 2<br>o 2<br>l 1<br>e 1 |
+| 2   | hello  | h 1<br>e 1<br>l 2<br>o 1 |
+| 3   | python | p 1<br>y 1<br>t 1\nh 1<br>o 1<br>n 1 |
+| 4   | abcabc | a 2<br>b 2<br>c 2 |
+
+### Note:
+This exercise tests the ability to count the frequency of characters in a string in Python.
+
