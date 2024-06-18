@@ -27,3 +27,31 @@
 ### Note:
 This exercise tests the ability to use dictionaries for key-value mappings in Python.
 
+
+<!-- 519 -->
+
+## Exercise 2: Count Letters and Digits - Easy 😊 (Est. Time: 10 mins | Points: 10)
+
+**Problem:** Write a program that takes a string of characters and calculates the number of letters and digits.
+
+### Input:
+- A string of characters.
+
+### Output:
+- The count of letters and digits in the format:
+```
+LETTERS {count}
+DIGITS {count}
+```
+
+### Examples:
+
+| No. | Inputs                                    | Outputs               |
+| --- | ----------------------------------------- | --------------------- |
+| 1   | Project Gutenberg offers over 59,000 free eBooks | LETTERS 36<br>DIGITS 5   |
+| 2   | 123abc456def                              | LETTERS 6<br>DIGITS 6    |
+| 3   | 9876543210                                | LETTERS 0<br>DIGITS 10   |
+| 4   | abcdefghijklmnopqrstuvwxyz                | LETTERS 26<br>DIGITS 0   |
+
+### Note:
+This exercise tests the ability to work with strings and count specific character types in Python.
