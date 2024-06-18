@@ -181,3 +181,26 @@ This exercise tests the ability to compare dates in Python.
 ### Note:
 This exercise tests the ability to work with lists and remove duplicate elements in Python.
 
+<!-- 544 -->
+
+## Exercise 8: Count Character Occurrences - Medium 🔥 (Est. Time: 10-15 mins | Points: 20)
+
+**Problem:** Write a program that counts and prints the number of occurrences of each character in the input string.
+
+### Input:
+- A string of characters.
+
+### Output:
+- The count of each character in the string, printed in the order of their first appearance.
+
+### Examples:
+
+| No. | Inputs        | Outputs            |
+| --- | ------------- | ------------------ |
+| 1   | abcabcdfghj   | a, 2<br>b, 2<br>c, 2<br>d, 1<br>f, 1<br>g, 1<br>h, 1<br>j, 1 |
+| 2   | hello world   | h, 1<br>e, 1<br>l, 3<br>o, 2<br> , 1<br>w, 1<br>r, 1<br>d, 1 |
+| 3   | aabbcc        | a, 2<br>b, 2<br>c, 2 |
+| 4   | programming   | p, 1<br>r, 2<br>o, 1<br>g, 2<br>m, 2<br>a, 1<br>i, 1<br>n, 1 |
+
+### Note:
+This exercise tests the ability to count and print character occurrences in Python.
