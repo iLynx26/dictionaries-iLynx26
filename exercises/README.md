@@ -230,3 +230,30 @@ This exercise tests the ability to count and print character occurrences in Pyth
 ### Note:
 This exercise tests the ability to count the number of previous occurrences of words in a text in Python.
 
+
+<!-- 556 -->
+
+## Exercise 10: Find Synonym - Medium 🔥 (Est. Time: 10-15 mins | Points: 20)
+
+**Problem:** Given a dictionary consisting of pairs of words. Each word is a synonym for the paired word. All words in the dictionary are different. For a given word, determine its synonym. The program receives the number of synonym pairs `n`. Then `n` lines follow, each line containing exactly two synonymous words. After that, one word is entered. The program should print the synonym for the given word.
+
+### Input:
+- An integer `n` representing the number of synonym pairs.
+- `n` lines, each containing exactly two synonymous words.
+- One word for which the synonym needs to be determined.
+
+### Output:
+- The synonym for the given word.
+
+### Examples:
+
+| No. | Inputs                     | Outputs  |
+| --- | -------------------------- | -------- |
+| 1   | 3<br>Solar Heliac<br>Day Daytime<br>Arrive Occur<br>Heliac | Solar    |
+| 2   | 2<br>Happy Joyful<br>Sad Unhappy<br>Joyful | Happy    |
+| 3   | 4<br>Big Large<br>Small Tiny<br>Fast Quick<br>Smart Intelligent<br>Quick | Fast |
+| 4   | 1<br>Hot Warm<br>Warm | Hot |
+
+### Note:
+This exercise tests the ability to work with dictionaries and find corresponding pairs in Python.
+
