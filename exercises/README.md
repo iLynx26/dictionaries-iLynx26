@@ -55,3 +55,32 @@ DIGITS {count}
 
 ### Note:
 This exercise tests the ability to work with strings and count specific character types in Python.
+
+<!-- 520 -->
+
+## Exercise 3: Count Upper and Lower Case Letters - Easy 😊 (Est. Time: 10 mins | Points: 10)
+
+**Problem:** Write a program that takes a string of characters and calculates the number of uppercase and lowercase letters.
+
+### Input:
+- A string of characters.
+
+### Output:
+- The count of uppercase and lowercase letters in the format 
+```
+UPPER CASE {count}
+LOWER CASE {count}
+```
+
+### Examples:
+
+| No. | Inputs                                    | Outputs               |
+| --- | ----------------------------------------- | --------------------- |
+| 1   | The quick brown FOX jumps over a lazy DOG | UPPER CASE 7\nLOWER CASE 26 |
+| 2   | Hello World                               | UPPER CASE 2\nLOWER CASE 8  |
+| 3   | PYTHON programming                        | UPPER CASE 6\nLOWER CASE 11 |
+| 4   | ABCdefGHIjklMNO                           | UPPER CASE 9\nLOWER CASE 6  |
+
+### Note:
+This exercise tests the ability to work with strings and count specific character cases in Python.
+
