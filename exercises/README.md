@@ -395,3 +395,28 @@ This exercise tests the ability to work with sets and unique elements in Python.
 
 ### Note:
 This exercise tests the ability to work with dictionaries and look up values based on keys in Python.
+
+<!-- 566 -->
+
+## Exercise 15: Count Repeated Characters - Medium 🔥 (Est. Time: 10-15 mins | Points: 20)
+
+**Problem:** Write a program to count the repeated characters in the given string.
+
+### Input:
+- A single line of text.
+
+### Output:
+- Each character and its count in the format: character count. Only characters that repeat should be included in the output.
+
+### Examples:
+
+| No. | Inputs                             | Outputs                           |
+| --- | ---------------------------------- | --------------------------------- |
+| 1   | the quick brown fox jumps over the lazy dog | t 2<br>h 2<br>e 3<br>  8<br>u 2<br>r 2<br>o 4 |
+| 2   | hello world                        | l 3<br>o 2                        |
+| 3   | aabbccdd                           | a 2<br>b 2<br>c 2<br>d 2          |
+| 4   | python programming                 | p 2<br>r 2<br>o 2<br>m 2          |
+
+### Note:
+This exercise tests the ability to count characters and filter repeated ones in Python.
+
