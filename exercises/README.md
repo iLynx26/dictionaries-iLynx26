@@ -108,3 +108,28 @@ This exercise tests the ability to work with strings and count specific characte
 ### Note:
 This exercise tests the ability to count the frequency of characters in a string in Python.
 
+<!-- 527 -->
+
+## Exercise 5: Morse Code Representation - Easy 😊 (Est. Time: 10 mins | Points: 10)
+
+**Problem:** Use a dictionary to output the Morse code representation of the letter entered by the user. The program should handle both uppercase and lowercase letters.
+
+### Input:
+- A letter entered by the user.
+
+### Output:
+- The Morse code representation of the letter.
+
+### Examples:
+
+| No. | Inputs | Outputs  |
+| --- | ------ | -------- |
+| 1   | D      | -..      |
+| 2   | f      | ..-.     |
+| 3   | A      | .-       |
+| 4   | z      | --..     |
+
+### Note:
+This exercise tests the ability to use dictionaries and handle character case in Python.
+
+
