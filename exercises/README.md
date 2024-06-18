@@ -204,3 +204,29 @@ This exercise tests the ability to work with lists and remove duplicate elements
 
 ### Note:
 This exercise tests the ability to count and print character occurrences in Python.
+
+
+<!-- 549 -->
+
+## Exercise 9: Count Previous Occurrences of Words - Medium 🔥 (Est. Time: 10-15 mins | Points: 20)
+
+**Problem:** Given a line of text, a word is defined as a sequence of non-space characters that are contiguous. Words are separated by one or more spaces or end-of-line characters. For each word in this text, count how many times it has appeared before in this text.
+
+### Input:
+- A line of text.
+
+### Output:
+- For each word in the text, print how many times it has appeared before.
+
+### Examples:
+
+| No. | Inputs                                   | Outputs               |
+| --- | ---------------------------------------- | --------------------- |
+| 1   | var list set tuple list tuple tuple dict var | 0 0 0 0 1 1 2 0 1     |
+| 2   | hello world hello hello world             | 0 0 1 2 1             |
+| 3   | a b c a b c a b c                         | 0 0 0 1 1 1 2 2 2     |
+| 4   | one two one two three two four three      | 0 0 1 1 0 2 0 1       |
+
+### Note:
+This exercise tests the ability to count the number of previous occurrences of words in a text in Python.
+
