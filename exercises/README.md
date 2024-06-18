@@ -257,3 +257,27 @@ This exercise tests the ability to count the number of previous occurrences of w
 ### Note:
 This exercise tests the ability to work with dictionaries and find corresponding pairs in Python.
 
+<!-- 557 -->
+
+## Exercise 11: Check for Previous Occurrences - Medium 🔥 (Est. Time: 10-15 mins | Points: 20)
+
+**Problem:** Given a sequence of numbers in an input string separated by spaces, for each number print the word `YES` (in a separate line) if this number has occurred earlier in the sequence or `NO` if it has not occurred. Use a dictionary to store the values.
+
+### Input:
+- A sequence of numbers separated by spaces.
+
+### Output:
+- For each number, print `YES` if it has occurred earlier, otherwise print `NO`.
+
+### Examples:
+
+| No. | Inputs              | Outputs                         |
+| --- | ------------------- | ------------------------------- |
+| 1   | 4 6 1 8 4 9 0 1     | NO<br>NO<br>NO<br>NO<br>YES<br>NO<br>NO<br>YES |
+| 2   | 3 3 4 5 6 7 4 8 9 0 | NO<br>YES<br>NO<br>NO<br>NO<br>NO<br>YES<br>NO<br>NO<br>NO |
+| 3   | 1 2 3 4 5 1 2 3 4 5 | NO<br>NO<br>NO<br>NO<br>NO<br>YES<br>YES<br>YES<br>YES<br>YES |
+| 4   | 5 6 7 8 9 5 6 7 8 9 | NO<br>NO<br>NO<br>NO<br>NO<br>YES<br>YES<br>YES<br>YES<br>YES |
+
+### Note:
+This exercise tests the ability to use dictionaries for tracking occurrences of numbers in Python.
+
