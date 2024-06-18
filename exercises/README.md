@@ -501,3 +501,27 @@ This exercise tests the ability to use substitution ciphers for both encryption 
 
 ### Note:
 This exercise tests the ability to use substitution ciphers for both encryption and decryption in Python.
+
+<!-- 581 -->
+
+## Exercise 18: Count Word Frequencies - Hard 🥵 (Est. Time: 20-30 mins | Points: 40)
+
+**Problem:** Given a string of text where words are separated by spaces, print all the words that appear in the text and their frequencies as shown in the output data.
+
+### Input:
+- A string of text with words separated by spaces.
+
+### Output:
+- A list of tuples where each tuple contains a word and its frequency, sorted by the words.
+
+### Examples:
+
+| No. | Inputs                             | Outputs                                                   |
+| --- | ---------------------------------- | --------------------------------------------------------- |
+| 1   | one two three one four five seven ten seven one | ('one', 3) ('four', 1) ('seven', 2) ('ten', 1) ('three', 1) ('two', 1) ('five', 1) |
+| 2   | apple orange apple banana          | ('apple', 2) ('banana', 1) ('orange', 1)                  |
+| 3   | hello world hello python           | ('hello', 2) ('python', 1) ('world', 1)                   |
+| 4   | cat dog cat bird                   | ('bird', 1) ('cat', 2) ('dog', 1)                         |
+
+### Note:
+This exercise tests the ability to count word frequencies and sort words in Python.
