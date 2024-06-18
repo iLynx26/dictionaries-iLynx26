@@ -102,7 +102,7 @@ This exercise tests the ability to work with strings and count specific characte
 | --- | ------ | -------- |
 | 1   | google | g 2<br>o 2<br>l 1<br>e 1 |
 | 2   | hello  | h 1<br>e 1<br>l 2<br>o 1 |
-| 3   | python | p 1<br>y 1<br>t 1\nh 1<br>o 1<br>n 1 |
+| 3   | python | p 1<br>y 1<br>t 1<br>h 1<br>o 1<br>n 1 |
 | 4   | abcabc | a 2<br>b 2<br>c 2 |
 
 ### Note:
