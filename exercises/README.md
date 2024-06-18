@@ -368,3 +368,30 @@ This exercise tests the ability to perform unit conversions and work with variou
 
 ### Note:
 This exercise tests the ability to work with sets and unique elements in Python.
+
+<!-- 564 -->
+
+## Exercise 14: City to Country Mapping - Medium 🔥 (Est. Time: 10-15 mins | Points: 20)
+
+**Problem:** Given `n` lines with abbreviated country names and full city names for each country, followed by `m` lines with city names, write a program that prints the abbreviated country name for each city.
+
+### Input:
+- First line: number of countries `n`
+- Next `n` lines: abbreviated country name followed by city names
+- Next line: number of cities `m`
+- Next `m` lines: city names
+
+### Output:
+- Abbreviated country name for each city
+
+### Examples:
+
+| No. | Inputs                                                                                                                                                                | Outputs       |
+| --- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
+| 1   | 5<br>UA Kyiv Zhytomyr Ternopil Dnipro<br>JP Tokyo Osaka Kyoto<br>CA Montreal Toronto Ottawa<br>USA Boston Pittsburgh Washington Seattle<br>UK London Edinburgh Cardiff Belfast<br>3<br>Seattle<br>London<br>Kyiv | USA<br>UK<br>UA |
+| 2   | 3<br>IN Delhi Mumbai Bangalore<br>CN Beijing Shanghai Shenzhen<br>FR Paris Lyon Marseille<br>2<br>Paris<br>Beijing | FR<br>CN |
+| 3   | 2<br>IT Rome Milan Naples<br>ES Madrid Barcelona Valencia<br>3<br>Madrid<br>Rome<br>Naples | ES<br>IT<br>IT |
+| 4   | 4<br>AU Sydney Melbourne Brisbane<br>NZ Auckland Wellington Christchurch<br>BR Rio Sao Paulo Brasilia<br>AR Buenos Aires Cordoba Rosario<br>2<br>Sydney<br>Rio | AU<br>BR |
+
+### Note:
+This exercise tests the ability to work with dictionaries and look up values based on keys in Python.
