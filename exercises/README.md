@@ -133,3 +133,28 @@ This exercise tests the ability to count the frequency of characters in a string
 This exercise tests the ability to use dictionaries and handle character case in Python.
 
 
+<!-- 531 -->
+
+## Exercise 6: Date Range Check - Easy 😊 (Est. Time: 10 mins | Points: 10)
+
+**Problem:** Given a month and year for two dates (e.g., 12.2014 and 6.2019), the user enters another date (month and year). Determine if the third date falls within the range from the first date to the second date inclusive. The program should output `YES` or `NO`.
+
+### Input:
+- A year and month for the third date.
+
+### Output:
+- `YES` if the third date falls within the range, `NO` otherwise.
+
+### Examples:
+
+| No. | Inputs  | Outputs |
+| --- | ------- | ------- |
+| 1   | 2018<br>5 | YES   |
+| 2   | 2014<br>11 | NO  |
+| 3   | 2019<br>7 | NO   |
+| 4   | 2016<br>3 | YES  |
+
+### Note:
+This exercise tests the ability to compare dates in Python.
+
+
