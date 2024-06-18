@@ -420,3 +420,30 @@ This exercise tests the ability to work with dictionaries and look up values bas
 ### Note:
 This exercise tests the ability to count characters and filter repeated ones in Python.
 
+<!-- 572 -->
+
+## Exercise 15: Football Match Summary Table - Hard 🥵 (Est. Time: 20-30 mins | Points: 40)
+
+**Problem:** Write a program that accepts a list of football match results and outputs a summary table of all match results. The format of the input is as follows: the first line indicates the integer `n` - the number of completed games. After that, `n` lines follow, which record the results of the game in the following format: `team1;score1;team2;score2`. For a win, the team is awarded 3 points, for a loss - 0, for a draw - 1.
+
+### Input:
+- An integer `n` indicating the number of games.
+- `n` lines with the match results in the format
+```
+team1;score1;team2;score2
+```
+
+### Output:
+- A summary table of the results in the format: `Team: Total_Games Wins Draws Losses Total_Points`.
+
+### Examples:
+
+| No. | Inputs                                        | Outputs |
+| --- | --------------------------------------------- | ------- |
+| 1   | 3<br>TeamA;3;TeamB;1<br>TeamA;2;TeamC;2<br>TeamB;1;TeamC;2 | TeamA: 2 1 1 0 4<br>TeamB: 2 0 0 2 0<br>TeamC: 2 1 1 0 4 |
+| 2   | 2<br>TeamX;1;TeamY;1<br>TeamX;0;TeamZ;3       | TeamX: 2 0 1 1 1<br>TeamY: 1 0 1 0 1<br>TeamZ: 1 1 0 0 3 |
+| 3   | 1<br>Team1;2;Team2;2                          | Team1: 1 0 1 0 1<br>Team2: 1 0 1 0 1 |
+| 4   | 4<br>Alpha;2;Beta;3<br>Gamma;1;Beta;1<br>Alpha;0;Gamma;0<br>Beta;2;Gamma;1 | Alpha: 2 0 1 1 1<br>Beta: 3 2 1 0 7<br>Gamma: 3 0 1 2 1 |
+
+### Note:
+This exercise tests the ability to process multiple inputs and generate a summary table based on conditions in Python.
