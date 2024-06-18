@@ -281,3 +281,27 @@ This exercise tests the ability to work with dictionaries and find corresponding
 ### Note:
 This exercise tests the ability to use dictionaries for tracking occurrences of numbers in Python.
 
+<!-- 560 -->
+
+## Exercise 12: Letter Frequency in English Text - Medium 🔥 (Est. Time: 10-15 mins | Points: 20)
+
+**Problem:** Given a text in English. Besides English letters, it may contain spaces and punctuation marks. Print the information about how many of each letter is present in this text (print 26 numbers). Uppercase and lowercase letters are not distinguished.
+
+### Input:
+- A text in English.
+
+### Output:
+- 26 numbers representing the count of each letter from 'a' to 'z'.
+
+### Examples:
+
+| No. | Inputs          | Outputs                                  |
+| --- | --------------- | ---------------------------------------- |
+| 1   | Hello world!    | 0 0 0 1 1 0 0 1 0 0 0 3 0 0 2 0 0 1 0 0 0 0 1 0 0 0 |
+| 2   | This is a test. | 1 0 0 1 1 0 1 2 2 0 0 0 0 0 0 0 0 2 2 2 0 0 0 0 0 0 |
+| 3   | Python 3.9.1    | 0 0 0 0 1 0 0 1 0 0 0 0 0 0 1 0 0 1 0 1 0 0 0 0 0 0 |
+| 4   | abcdefghijklmnopqrstuvwxyz | 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 |
+| 5   | The quick brown fox jumps over the lazy dog. | 1 1 1 2 3 1 1 2 1 1 0 1 1 1 4 1 1 2 2 2 2 1 1 1 1 1 |
+
+### Note:
+This exercise tests the ability to count and print the frequency of letters in a given text, disregarding case differences.
