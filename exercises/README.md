@@ -157,4 +157,27 @@ This exercise tests the ability to use dictionaries and handle character case in
 ### Note:
 This exercise tests the ability to compare dates in Python.
 
+<!-- 535 -->
+
+## Exercise 7: Remove Duplicates from List - Medium 🔥 (Est. Time: 10-15 mins | Points: 20)
+
+**Problem:** Write a program to remove duplicates from a list of integers.
+
+### Input:
+- A list of integers entered in a single line.
+
+### Output:
+- The list of integers with duplicates removed, sorted in ascending order.
+
+### Examples:
+
+| No. | Inputs                | Outputs               |
+| --- | --------------------- | --------------------- |
+| 1   | 10 5 11 2 3 5 8 9 3 4 2 | 2 3 4 5 8 9 10 11     |
+| 2   | 1 1 1 1 1 1             | 1                     |
+| 3   | 5 4 3 2 1               | 1 2 3 4 5             |
+| 4   | 2 2 3 3 4 4 5 5         | 2 3 4 5               |
+
+### Note:
+This exercise tests the ability to work with lists and remove duplicate elements in Python.
 
