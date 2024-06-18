@@ -447,3 +447,57 @@ team1;score1;team2;score2
 
 ### Note:
 This exercise tests the ability to process multiple inputs and generate a summary table based on conditions in Python.
+
+<!-- 574 -->
+
+## Exercise 15: Substitution Cipher Encryption/Decryption - Hard 🥵 (Est. Time: 20-30 mins | Points: 40)
+
+**Problem:** Write a program that can encrypt and decrypt using a substitution cipher. The program takes two lines of equal length as input, with the first line containing the characters of the initial alphabet and the second line containing the characters of the final alphabet (substitution cipher). After that, a line that needs to be encrypted using the provided substitution cipher and another line that needs to be decrypted are given. For example, the program input is:
+
+### Input:
+- Two lines of equal length, with the first line being the initial alphabet and the second line being the substitution alphabet.
+- A line to be encrypted.
+- A line to be decrypted.
+
+### Output:
+- The encrypted line.
+- The decrypted line.
+
+### Examples:
+
+| No. | Inputs                | Outputs               |
+| --- | --------------------- | --------------------- |
+| 1   | abcd<br>*d%#<br>abacabadaba<br>#*%*d*% | *d*%*d*#*d*<br>dacabac |
+| 2   | abcdef<br>uvwxyz<br>abcabc<br>vuvwuv | uvwuvw<br>abcabc |
+| 3   | xyz<br>abc<br>xyzxyz<br>abcabc | abcabc<br>xyzxyz |
+| 4   | mnopqr<br>stuvwx<br>mnop<br>stuv | stuv<br>mnop |
+
+### Note:
+This exercise tests the ability to use substitution ciphers for both encryption and decryption in Python.
+
+<!-- 574 -->
+
+## Exercise 28: Substitution Cipher Encryption/Decryption - Hard 🥵 (Est. Time: 20-30 mins | Points: 40)
+
+**Problem:** Write a program that can encrypt and decrypt using a substitution cipher. The program takes two lines of equal length as input, with the first line containing the characters of the initial alphabet and the second line containing the characters of the final alphabet (substitution cipher). After that, a line that needs to be encrypted using the provided substitution cipher and another line that needs to be decrypted are given.
+
+### Input:
+- Two lines of equal length, with the first line being the initial alphabet and the second line being the substitution alphabet.
+- A line to be encrypted.
+- A line to be decrypted.
+
+### Output:
+- The encrypted line.
+- The decrypted line.
+
+### Examples:
+
+| No. | Inputs                | Outputs               |
+| --- | --------------------- | --------------------- |
+| 1   | abcd<br>*d%#<br>abacabadaba<br>#*%*d*% | *d*%*d*#*d*<br>dacabac |
+| 2   | abcdef<br>uvwxyz<br>abcabc<br>vuvwuv | uvwuvw<br>abcabc |
+| 3   | xyz<br>abc<br>xyzxyz<br>abcabc | abcabc<br>xyzxyz |
+| 4   | mnopqr<br>stuvwx<br>mnop<br>stuv | stuv<br>mnop |
+
+### Note:
+This exercise tests the ability to use substitution ciphers for both encryption and decryption in Python.
