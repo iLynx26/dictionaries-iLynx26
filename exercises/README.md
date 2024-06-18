@@ -450,7 +450,7 @@ This exercise tests the ability to process multiple inputs and generate a summar
 
 <!-- 574 -->
 
-## Exercise 15: Substitution Cipher Encryption/Decryption - Hard 🥵 (Est. Time: 20-30 mins | Points: 40)
+## Exercise 16: Substitution Cipher Encryption/Decryption - Hard 🥵 (Est. Time: 20-30 mins | Points: 40)
 
 **Problem:** Write a program that can encrypt and decrypt using a substitution cipher. The program takes two lines of equal length as input, with the first line containing the characters of the initial alphabet and the second line containing the characters of the final alphabet (substitution cipher). After that, a line that needs to be encrypted using the provided substitution cipher and another line that needs to be decrypted are given. For example, the program input is:
 
@@ -477,7 +477,7 @@ This exercise tests the ability to use substitution ciphers for both encryption 
 
 <!-- 574 -->
 
-## Exercise 28: Substitution Cipher Encryption/Decryption - Hard 🥵 (Est. Time: 20-30 mins | Points: 40)
+## Exercise 17: Substitution Cipher Encryption/Decryption - Hard 🥵 (Est. Time: 20-30 mins | Points: 40)
 
 **Problem:** Write a program that can encrypt and decrypt using a substitution cipher. The program takes two lines of equal length as input, with the first line containing the characters of the initial alphabet and the second line containing the characters of the final alphabet (substitution cipher). After that, a line that needs to be encrypted using the provided substitution cipher and another line that needs to be decrypted are given.
 
