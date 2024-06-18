@@ -298,10 +298,73 @@ This exercise tests the ability to use dictionaries for tracking occurrences of 
 | No. | Inputs          | Outputs                                  |
 | --- | --------------- | ---------------------------------------- |
 | 1   | Hello world!    | 0 0 0 1 1 0 0 1 0 0 0 3 0 0 2 0 0 1 0 0 0 0 1 0 0 0 |
-| 2   | This is a test. | 1 0 0 1 1 0 1 2 2 0 0 0 0 0 0 0 0 2 2 2 0 0 0 0 0 0 |
-| 3   | Python 3.9.1    | 0 0 0 0 1 0 0 1 0 0 0 0 0 0 1 0 0 1 0 1 0 0 0 0 0 0 |
+| 2   | This is a test. | 1 0 0 0 1 0 0 1 2 0 0 0 0 0 0 0 0 3 3 0 0 0 0 0 0 0 |
+| 3   | Python 3.9.1    | 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 1 0 1 0 1 0 0 0 0 1 0 |
 | 4   | abcdefghijklmnopqrstuvwxyz | 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 |
-| 5   | The quick brown fox jumps over the lazy dog. | 1 1 1 2 3 1 1 2 1 1 0 1 1 1 4 1 1 2 2 2 2 1 1 1 1 1 |
+| 5   | The quick brown fox jumps over the lazy dog. | 1 1 1 1 3 1 1 2 1 1 1 1 1 1 4 1 1 2 1 2 2 1 1 1 1 1 |
 
 ### Note:
 This exercise tests the ability to count and print the frequency of letters in a given text, disregarding case differences.
+
+<!-- 561 -->
+
+## Exercise 12: Unit Conversion - Medium 🔥 (Est. Time: 10-15 mins | Points: 20)
+
+**Problem:** Write a program that performs conversion from one unit of length measurement to another. The supported units are:
+
+- Miles (1 mile = 1609 m)
+- Yards (1 yard = 0.9144 m)
+- Feet (1 foot = 30.48 cm)
+- Inches (1 inch = 2.54 cm)
+- Kilometers (1 km = 1000 m)
+- Meters (m)
+- Centimeters (1 cm = 0.01 m)
+- Millimeters (1 mm = 0.001 m)
+
+### Input:
+- A string in the format `<number> <unit_from> in <unit_to>`.
+
+### Output:
+- The converted length.
+
+### Examples:
+
+| No. | Inputs                 | Outputs              |
+| --- | ---------------------- | -------------------- |
+| 1   | 1 mile in meters       | 1609.0               |
+| 2   | 10 yards in meters     | 9.144                |
+| 3   | 5 feet in centimeters  | 152.4                |
+| 4   | 12 inches in centimeters | 30.48               |
+| 5   | 3 kilometers in meters | 3000.0               |
+| 6   | 50 centimeters in meters | 0.5               |
+| 7   | 100 millimeters in meters | 0.1              |
+| 8   | 2 kilometers in miles | 1.24274238           |
+| 9   | 5000 meters in kilometers | 5.0              |
+| 10  | 1 mile in inches       | 63360.0              |
+
+### Note:
+This exercise tests the ability to perform unit conversions and work with various length measurements.
+
+<!-- 562 -->
+
+## Exercise 13: Check Unique Numbers - Medium 🔥 (Est. Time: 10-15 mins | Points: 20)
+
+**Problem:** Write a program that accepts a sequence of numbers and determines whether all numbers are distinct from each other or not. Do not use loops.
+
+### Input:
+- A sequence of numbers entered in a single line.
+
+### Output:
+- Print "duplicate list" if any numbers are repeated, otherwise print "is unique sequence".
+
+### Examples:
+
+| No. | Inputs                | Outputs             |
+| --- | --------------------- | ------------------- |
+| 1   | 1 4 5 0 2 4           | duplicate list      |
+| 2   | 1 6 9 10              | is unique sequence  |
+| 3   | 2 3 4 5 6 7 8 9 1 2   | duplicate list      |
+| 4   | 0 1 2 3 4 5           | is unique sequence  |
+
+### Note:
+This exercise tests the ability to work with sets and unique elements in Python.
