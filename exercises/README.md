@@ -76,10 +76,10 @@ LOWER CASE {count}
 
 | No. | Inputs                                    | Outputs               |
 | --- | ----------------------------------------- | --------------------- |
-| 1   | The quick brown FOX jumps over a lazy DOG | UPPER CASE 7\nLOWER CASE 26 |
-| 2   | Hello World                               | UPPER CASE 2\nLOWER CASE 8  |
-| 3   | PYTHON programming                        | UPPER CASE 6\nLOWER CASE 11 |
-| 4   | ABCdefGHIjklMNO                           | UPPER CASE 9\nLOWER CASE 6  |
+| 1   | The quick brown FOX jumps over a lazy DOG | UPPER CASE 7<br>LOWER CASE 26 |
+| 2   | Hello World                               | UPPER CASE 2<br>LOWER CASE 8  |
+| 3   | PYTHON programming                        | UPPER CASE 6<br>LOWER CASE 11 |
+| 4   | ABCdefGHIjklMNO                           | UPPER CASE 9<br>LOWER CASE 6  |
 
 ### Note:
 This exercise tests the ability to work with strings and count specific character cases in Python.
