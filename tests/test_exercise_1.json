@@ -1,0 +1,54 @@
+{
+    "tests": [
+        {
+            "docstring": "Prints the name of the day for the entered ordinal number 3, which should be 'Wednesday'",
+            "inputs": [3],
+            "expected_output": "Wednesday"
+        },
+        {
+            "docstring": "Prints the name of the day for the entered ordinal number 0, which should be 'Sunday'",
+            "inputs": [0],
+            "expected_output": "Sunday"
+        },
+        {
+            "docstring": "Prints the name of the day for the entered ordinal number 5, which should be 'Friday'",
+            "inputs": [5],
+            "expected_output": "Friday"
+        },
+        {
+            "docstring": "Does not print any output for the entered ordinal number 7",
+            "inputs": [7],
+            "expected_output": ""
+        },
+        {
+            "docstring": "Prints the name of the day for the entered ordinal number 1, which should be 'Monday'",
+            "inputs": [1],
+            "expected_output": "Monday"
+        },
+        {
+            "docstring": "Prints the name of the day for the entered ordinal number 2, which should be 'Tuesday'",
+            "inputs": [2],
+            "expected_output": "Tuesday"
+        },
+        {
+            "docstring": "Prints the name of the day for the entered ordinal number 4, which should be 'Thursday'",
+            "inputs": [4],
+            "expected_output": "Thursday"
+        },
+        {
+            "docstring": "Prints the name of the day for the entered ordinal number 6, which should be 'Saturday'",
+            "inputs": [6],
+            "expected_output": "Saturday"
+        },
+        {
+            "docstring": "Prints the name of the day for the entered ordinal number 8, which should be 'Invalid input'",
+            "inputs": [8],
+            "expected_output": ""
+        },
+        {
+            "docstring": "Prints the name of the day for the entered ordinal number -1, which should be 'Invalid input'",
+            "inputs": [-1],
+            "expected_output": ""
+        }
+    ]
+}

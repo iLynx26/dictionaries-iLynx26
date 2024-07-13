@@ -306,44 +306,6 @@ This exercise tests the ability to use dictionaries for tracking occurrences of 
 ### Note:
 This exercise tests the ability to count and print the frequency of letters in a given text, disregarding case differences.
 
-<!-- 561 -->
-
-## Exercise 12: Unit Conversion - Medium 🔥 (Est. Time: 10-15 mins | Points: 20)
-
-**Problem:** Write a program that performs conversion from one unit of length measurement to another. The supported units are:
-
-- Miles (1 mile = 1609 m)
-- Yards (1 yard = 0.9144 m)
-- Feet (1 foot = 30.48 cm)
-- Inches (1 inch = 2.54 cm)
-- Kilometers (1 km = 1000 m)
-- Meters (m)
-- Centimeters (1 cm = 0.01 m)
-- Millimeters (1 mm = 0.001 m)
-
-### Input:
-- A string in the format `<number> <unit_from> in <unit_to>`.
-
-### Output:
-- The converted length.
-
-### Examples:
-
-| No. | Inputs                 | Outputs              |
-| --- | ---------------------- | -------------------- |
-| 1   | 1 mile in meters       | 1609.0               |
-| 2   | 10 yards in meters     | 9.144                |
-| 3   | 5 feet in centimeters  | 152.4                |
-| 4   | 12 inches in centimeters | 30.48               |
-| 5   | 3 kilometers in meters | 3000.0               |
-| 6   | 50 centimeters in meters | 0.5               |
-| 7   | 100 millimeters in meters | 0.1              |
-| 8   | 2 kilometers in miles | 1.24274238           |
-| 9   | 5000 meters in kilometers | 5.0              |
-| 10  | 1 mile in inches       | 63360.0              |
-
-### Note:
-This exercise tests the ability to perform unit conversions and work with various length measurements.
 
 <!-- 562 -->
 
@@ -422,31 +384,6 @@ This exercise tests the ability to count characters and filter repeated ones in 
 
 <!-- 572 -->
 
-## Exercise 15: Football Match Summary Table - Hard 🥵 (Est. Time: 20-30 mins | Points: 40)
-
-**Problem:** Write a program that accepts a list of football match results and outputs a summary table of all match results. The format of the input is as follows: the first line indicates the integer `n` - the number of completed games. After that, `n` lines follow, which record the results of the game in the following format: `team1;score1;team2;score2`. For a win, the team is awarded 3 points, for a loss - 0, for a draw - 1.
-
-### Input:
-- An integer `n` indicating the number of games.
-- `n` lines with the match results in the format
-```
-team1;score1;team2;score2
-```
-
-### Output:
-- A summary table of the results in the format: `Team: Total_Games Wins Draws Losses Total_Points`.
-
-### Examples:
-
-| No. | Inputs                                        | Outputs |
-| --- | --------------------------------------------- | ------- |
-| 1   | 3<br>TeamA;3;TeamB;1<br>TeamA;2;TeamC;2<br>TeamB;1;TeamC;2 | TeamA: 2 1 1 0 4<br>TeamB: 2 0 0 2 0<br>TeamC: 2 1 1 0 4 |
-| 2   | 2<br>TeamX;1;TeamY;1<br>TeamX;0;TeamZ;3       | TeamX: 2 0 1 1 1<br>TeamY: 1 0 1 0 1<br>TeamZ: 1 1 0 0 3 |
-| 3   | 1<br>Team1;2;Team2;2                          | Team1: 1 0 1 0 1<br>Team2: 1 0 1 0 1 |
-| 4   | 4<br>Alpha;2;Beta;3<br>Gamma;1;Beta;1<br>Alpha;0;Gamma;0<br>Beta;2;Gamma;1 | Alpha: 2 0 1 1 1<br>Beta: 3 2 1 0 7<br>Gamma: 3 0 1 2 1 |
-
-### Note:
-This exercise tests the ability to process multiple inputs and generate a summary table based on conditions in Python.
 
 <!-- 574 -->
 
@@ -475,32 +412,44 @@ This exercise tests the ability to process multiple inputs and generate a summar
 ### Note:
 This exercise tests the ability to use substitution ciphers for both encryption and decryption in Python.
 
-<!-- 574 -->
+<!-- 561 -->
 
-## Exercise 17: Substitution Cipher Encryption/Decryption - Hard 🥵 (Est. Time: 20-30 mins | Points: 40)
+## Exercise 17: Unit Conversion - Medium 🔥 (Est. Time: 10-15 mins | Points: 20)
 
-**Problem:** Write a program that can encrypt and decrypt using a substitution cipher. The program takes two lines of equal length as input, with the first line containing the characters of the initial alphabet and the second line containing the characters of the final alphabet (substitution cipher). After that, a line that needs to be encrypted using the provided substitution cipher and another line that needs to be decrypted are given.
+**Problem:** Write a program that performs conversion from one unit of length measurement to another. The supported units are:
+
+- Miles (1 mile = 1609 m)
+- Yards (1 yard = 0.9144 m)
+- Feet (1 foot = 30.48 cm)
+- Inches (1 inch = 2.54 cm)
+- Kilometers (1 km = 1000 m)
+- Meters (m)
+- Centimeters (1 cm = 0.01 m)
+- Millimeters (1 mm = 0.001 m)
 
 ### Input:
-- Two lines of equal length, with the first line being the initial alphabet and the second line being the substitution alphabet.
-- A line to be encrypted.
-- A line to be decrypted.
+- A string in the format `<number> <unit_from> in <unit_to>`.
 
 ### Output:
-- The encrypted line.
-- The decrypted line.
+- The converted length.
 
 ### Examples:
 
-| No. | Inputs                | Outputs               |
-| --- | --------------------- | --------------------- |
-| 1   | abcd<br>*d%#<br>abacabadaba<br>#*%*d*% | *d*%*d*#*d*<br>dacabac |
-| 2   | abcdef<br>uvwxyz<br>abcabc<br>vuvwuv | uvwuvw<br>abcabc |
-| 3   | xyz<br>abc<br>xyzxyz<br>abcabc | abcabc<br>xyzxyz |
-| 4   | mnopqr<br>stuvwx<br>mnop<br>stuv | stuv<br>mnop |
+| No. | Inputs                 | Outputs              |
+| --- | ---------------------- | -------------------- |
+| 1   | 1 mile in meters       | 1609.0               |
+| 2   | 10 yards in meters     | 9.144                |
+| 3   | 5 feet in centimeters  | 152.4                |
+| 4   | 12 inches in centimeters | 30.48               |
+| 5   | 3 kilometers in meters | 3000.0               |
+| 6   | 50 centimeters in meters | 0.5               |
+| 7   | 100 millimeters in meters | 0.1              |
+| 8   | 2 kilometers in miles | 1.24274238           |
+| 9   | 5000 meters in kilometers | 5.0              |
+| 10  | 1 mile in inches       | 63360.0              |
 
 ### Note:
-This exercise tests the ability to use substitution ciphers for both encryption and decryption in Python.
+This exercise tests the ability to perform unit conversions and work with various length measurements.
 
 <!-- 581 -->
 
@@ -523,5 +472,29 @@ This exercise tests the ability to use substitution ciphers for both encryption 
 | 3   | hello world hello python           | ('hello', 2) ('python', 1) ('world', 1)                   |
 | 4   | cat dog cat bird                   | ('bird', 1) ('cat', 2) ('dog', 1)                         |
 
+## Exercise 19: Football Match Summary Table - Hard 🥵 (Est. Time: 20-30 mins | Points: 40)
+
+**Problem:** Write a program that accepts a list of football match results and outputs a summary table of all match results. The format of the input is as follows: the first line indicates the integer `n` - the number of completed games. After that, `n` lines follow, which record the results of the game in the following format: `team1;score1;team2;score2`. For a win, the team is awarded 3 points, for a loss - 0, for a draw - 1.
+
+### Input:
+- An integer `n` indicating the number of games.
+- `n` lines with the match results in the format
+```
+team1;score1;team2;score2
+```
+
+### Output:
+- A summary table of the results in the format: `Team: Total_Games Wins Draws Losses Total_Points`.
+
+### Examples:
+
+| No. | Inputs                                        | Outputs |
+| --- | --------------------------------------------- | ------- |
+| 1   | 3<br>TeamA;3;TeamB;1<br>TeamA;2;TeamC;2<br>TeamB;1;TeamC;2 | TeamA: 2 1 1 0 4<br>TeamB: 2 0 0 2 0<br>TeamC: 2 1 1 0 4 |
+| 2   | 2<br>TeamX;1;TeamY;1<br>TeamX;0;TeamZ;3       | TeamX: 2 0 1 1 1<br>TeamY: 1 0 1 0 1<br>TeamZ: 1 1 0 0 3 |
+| 3   | 1<br>Team1;2;Team2;2                          | Team1: 1 0 1 0 1<br>Team2: 1 0 1 0 1 |
+| 4   | 4<br>Alpha;2;Beta;3<br>Gamma;1;Beta;1<br>Alpha;0;Gamma;0<br>Beta;2;Gamma;1 | Alpha: 2 0 1 1 1<br>Beta: 3 2 1 0 7<br>Gamma: 3 0 1 2 1 |
+
 ### Note:
-This exercise tests the ability to count word frequencies and sort words in Python.
+This exercise tests the ability to process multiple inputs and generate a summary table based on conditions in Python.
+

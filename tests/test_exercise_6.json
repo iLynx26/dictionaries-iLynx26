@@ -1,0 +1,54 @@
+{
+    "tests": [
+      {
+        "docstring": "Tests with a date within the range.",
+        "inputs": ["2018", "5"],
+        "expected_output": "YES"
+      },
+      {
+        "docstring": "Tests with a date just before the range starts.",
+        "inputs": ["2014", "11"],
+        "expected_output": "NO"
+      },
+      {
+        "docstring": "Tests with a date just after the range ends.",
+        "inputs": ["2019", "7"],
+        "expected_output": "NO"
+      },
+      {
+        "docstring": "Tests with a date in the middle of the range.",
+        "inputs": ["2016", "3"],
+        "expected_output": "YES"
+      },
+      {
+        "docstring": "Tests with the start date of the range.",
+        "inputs": ["2014", "12"],
+        "expected_output": "YES"
+      },
+      {
+        "docstring": "Tests with the end date of the range.",
+        "inputs": ["2019", "6"],
+        "expected_output": "YES"
+      },
+      {
+        "docstring": "Tests with a date far before the range starts.",
+        "inputs": ["2010", "1"],
+        "expected_output": "NO"
+      },
+      {
+        "docstring": "Tests with a date far after the range ends.",
+        "inputs": ["2020", "12"],
+        "expected_output": "NO"
+      },
+      {
+        "docstring": "Tests with a date very close to the start of the range.",
+        "inputs": ["2014", "12"],
+        "expected_output": "YES"
+      },
+      {
+        "docstring": "Tests with a date very close to the end of the range.",
+        "inputs": ["2019", "6"],
+        "expected_output": "YES"
+      }
+    ]
+  }

@@ -1,0 +1,54 @@
+{
+    "tests": [
+        {
+            "docstring": "Finds unique elements in '5 3 1 6 5 8 0 12' which should be '3 1 6 8 0 12'",
+            "inputs": ["5 3 1 6 5 8 0 12"],
+            "expected_output": "3 1 6 8 0 12"
+        },
+        {
+            "docstring": "Finds unique elements in '1 45 23 45 90 1 0' which should be '23 90 0'",
+            "inputs": ["1 45 23 45 90 1 0"],
+            "expected_output": "23 90 0"
+        },
+        {
+            "docstring": "Finds unique elements in '2 3 4 2 3 5' which should be '4 5'",
+            "inputs": ["2 3 4 2 3 5"],
+            "expected_output": "4 5"
+        },
+        {
+            "docstring": "Finds unique elements in '7 8 9 7 8 10' which should be '9 10'",
+            "inputs": ["7 8 9 7 8 10"],
+            "expected_output": "9 10"
+        },
+        {
+            "docstring": "Finds unique elements in '1 1 1 2 3 4' which should be '2 3 4'",
+            "inputs": ["1 1 1 2 3 4"],
+            "expected_output": "2 3 4"
+        },
+        {
+            "docstring": "Finds unique elements in '9 8 7 6 5 4 3 2 1' which should be '9 8 7 6 5 4 3 2 1'",
+            "inputs": ["9 8 7 6 5 4 3 2 1"],
+            "expected_output": "9 8 7 6 5 4 3 2 1"
+        },
+        {
+            "docstring": "Finds unique elements in '10 20 30 20 10' which should be '30'",
+            "inputs": ["10 20 30 20 10"],
+            "expected_output": "30"
+        },
+        {
+            "docstring": "Finds unique elements in '1 2 3 4 5 6 7 8 9 0' which should be '1 2 3 4 5 6 7 8 9 0'",
+            "inputs": ["1 2 3 4 5 6 7 8 9 0"],
+            "expected_output": "1 2 3 4 5 6 7 8 9 0"
+        },
+        {
+            "docstring": "Finds unique elements in '11 22 33 44 55 11 22 33' which should be '44 55'",
+            "inputs": ["11 22 33 44 55 11 22 33"],
+            "expected_output": "44 55"
+        },
+        {
+            "docstring": "Finds unique elements in '5 4 3 2 1 2 3 4' which should be '5 1'",
+            "inputs": ["5 4 3 2 1 2 3 4"],
+            "expected_output": "5 1"
+        }
+    ]
+}

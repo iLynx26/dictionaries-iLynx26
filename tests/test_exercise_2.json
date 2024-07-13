@@ -1,0 +1,54 @@
+{
+    "tests": [
+      {
+        "docstring": "Tests with a mix of letters, digits, and other characters.",
+        "inputs": ["Project Gutenberg offers over 59,000 free eBooks"],
+        "expected_output": "LETTERS 36\nDIGITS 5"
+      },
+      {
+        "docstring": "Tests with a mix of letters and digits.",
+        "inputs": ["123abc456def"],
+        "expected_output": "LETTERS 6\nDIGITS 6"
+      },
+      {
+        "docstring": "Tests with digits only.",
+        "inputs": ["9876543210"],
+        "expected_output": "LETTERS 0\nDIGITS 10"
+      },
+      {
+        "docstring": "Tests with letters only.",
+        "inputs": ["abcdefghijklmnopqrstuvwxyz"],
+        "expected_output": "LETTERS 26\nDIGITS 0"
+      },
+      {
+        "docstring": "Tests with empty string.",
+        "inputs": [""],
+        "expected_output": "LETTERS 0\nDIGITS 0"
+      },
+      {
+        "docstring": "Tests with special characters and spaces only.",
+        "inputs": ["!@#$%^&*() _+-=[]{}|;':,.<>/?`~"],
+        "expected_output": "LETTERS 0\nDIGITS 0"
+      },
+      {
+        "docstring": "Tests with uppercase letters and digits.",
+        "inputs": ["ABC123"],
+        "expected_output": "LETTERS 3\nDIGITS 3"
+      },
+      {
+        "docstring": "Tests with a long string of mixed characters.",
+        "inputs": ["The quick brown fox jumps over the lazy dog 1234567890"],
+        "expected_output": "LETTERS 35\nDIGITS 10"
+      },
+      {
+        "docstring": "Tests with numbers written in words.",
+        "inputs": ["One two three four five"],
+        "expected_output": "LETTERS 19\nDIGITS 0"
+      },
+      {
+        "docstring": "Tests with alphanumeric codes.",
+        "inputs": ["Code1234Test5678"],
+        "expected_output": "LETTERS 8\nDIGITS 8"
+      }
+    ]
+  }

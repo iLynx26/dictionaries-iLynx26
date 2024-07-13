@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "docstring": "Converts '1 7 9 4' to 1794",
+      "inputs": ["1 7 9 4"],
+      "expected_output": "1794"
+    },
+    {
+      "docstring": "Converts '3 4 5' to 345",
+      "inputs": ["3 4 5"],
+      "expected_output": "345"
+    },
+    {
+      "docstring": "Converts '8 0 2 5' to 8025",
+      "inputs": ["8 0 2 5"],
+      "expected_output": "8025"
+    },
+    {
+      "docstring": "Converts '6 1 4' to 614",
+      "inputs": ["6 1 4"],
+      "expected_output": "614"
+    },
+    {
+      "docstring": "Converts '2 0 2 1' to 2021",
+      "inputs": ["2 0 2 1"],
+      "expected_output": "2021"
+    },
+    {
+      "docstring": "Converts '9 8 7 6' to 9876",
+      "inputs": ["9 8 7 6"],
+      "expected_output": "9876"
+    },
+    {
+      "docstring": "Converts '4 4 4 4' to 4444",
+      "inputs": ["4 4 4 4"],
+      "expected_output": "4444"
+    },
+    {
+      "docstring": "Converts '0 1 2 3' to 123",
+      "inputs": ["0 1 2 3"],
+      "expected_output": "123"
+    },
+    {
+      "docstring": "Converts '1 0 0 0' to 1000",
+      "inputs": ["1 0 0 0"],
+      "expected_output": "1000"
+    },
+    {
+      "docstring": "Converts '5 5 5 5' to 5555",
+      "inputs": ["5 5 5 5"],
+      "expected_output": "5555"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+    "tests": [
+      {
+        "docstring": "Finds the country for cities across different countries.",
+        "inputs": [
+          "5",
+          "UA Kyiv Zhytomyr Ternopil Dnipro",
+          "JP Tokyo Osaka Kyoto",
+          "CA Montreal Toronto Ottawa",
+          "USA Boston Pittsburgh Washington Seattle",
+          "UK London Edinburgh Cardiff Belfast",
+          "3",
+          "Seattle",
+          "London",
+          "Kyiv"
+        ],
+        "expected_output": [
+          "USA",
+          "UK",
+          "UA"
+        ]
+      },
+      {
+        "docstring": "Identifies the country for cities in Asia.",
+        "inputs": [
+          "3",
+          "IN Delhi Mumbai Bangalore",
+          "CN Beijing Shanghai Shenzhen",
+          "FR Paris Lyon Marseille",
+          "2",
+          "Paris",
+          "Beijing"
+        ],
+        "expected_output": [
+          "FR",
+          "CN"
+        ]
+      },
+      {
+        "docstring": "Matches cities to their countries in Europe.",
+        "inputs": [
+          "2",
+          "IT Rome Milan Naples",
+          "ES Madrid Barcelona Valencia",
+          "3",
+          "Madrid",
+          "Rome",
+          "Naples"
+        ],
+        "expected_output": [
+          "ES",
+          "IT",
+          "IT"
+        ]
+      },
+      {
+        "docstring": "Finds the country for cities in Oceania and South America.",
+        "inputs": [
+          "4",
+          "AU Sydney Melbourne Brisbane",
+          "NZ Auckland Wellington Christchurch",
+          "BR Rio Sao Paulo Brasilia",
+          "AR Buenos Aires Cordoba Rosario",
+          "2",
+          "Sydney",
+          "Rio"
+        ],
+        "expected_output": [
+          "AU",
+          "BR"
+        ]
+      }
+    ]
+  }

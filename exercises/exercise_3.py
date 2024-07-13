@@ -10,5 +10,5 @@ for symbol in string:
     elif symbol.isupper():
         count["upper"] += 1
 
-print(f"UPPER {count['upper']} ")
-print(f"LOWER {count['lower']} ")
+print(f"UPPER CASE {count['upper']}")
+print(f"LOWER CASE {count['lower']}")

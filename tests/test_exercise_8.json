@@ -1,0 +1,54 @@
+{
+    "tests": [
+      {
+        "docstring": "Counts occurrences of each character in a string with no spaces.",
+        "inputs": ["abcabcdfghj"],
+        "expected_output": "a, 2\\nb, 2\\nc, 2\\nd, 1\\nf, 1\\ng, 1\\nh, 1\\nj, 1"
+      },
+      {
+        "docstring": "Counts occurrences of each character including spaces.",
+        "inputs": ["hello world"],
+        "expected_output": "h, 1\\ne, 1\\nl, 3\\no, 2\\n , 1\\nw, 1\\nr, 1\\nd, 1"
+      },
+      {
+        "docstring": "Counts occurrences of each character in a string with repeating pairs.",
+        "inputs": ["aabbcc"],
+        "expected_output": "a, 2\\nb, 2\\nc, 2"
+      },
+      {
+        "docstring": "Counts occurrences of each character in a string with multiple occurrences.",
+        "inputs": ["programming"],
+        "expected_output": "p, 1\\nr, 2\\no, 1\\ng, 2\\nm, 2\\na, 1\\ni, 1\\nn, 1"
+      },
+      {
+        "docstring": "Counts occurrences of each character in a string with uppercase and lowercase.",
+        "inputs": ["AaBbCcAa"],
+        "expected_output": "A, 2\\na, 2\\nB, 1\\nb, 1\\nC, 1\\nc, 1"
+      },
+      {
+        "docstring": "Counts occurrences of each character in a string with special characters.",
+        "inputs": ["!@#!!@#"],
+        "expected_output": "!, 3\\n@, 2\\n#, 2"
+      },
+      {
+        "docstring": "Counts occurrences of each character in an empty string.",
+        "inputs": [""],
+        "expected_output": ""
+      },
+      {
+        "docstring": "Counts occurrences of each character in a string with numbers.",
+        "inputs": ["1122334455"],
+        "expected_output": "1, 2\\n2, 2\\n3, 2\\n4, 2\\n5, 2"
+      },
+      {
+        "docstring": "Counts occurrences of each character in a string with a single character.",
+        "inputs": ["aaaaa"],
+        "expected_output": "a, 5"
+      },
+      {
+        "docstring": "Counts occurrences of each character in a string with mixed characters.",
+        "inputs": ["a1b2c3d4"],
+        "expected_output": "a, 1\\n1, 1\\nb, 1\\n2, 1\\nc, 1\\n3, 1\\nd, 1\\n4, 1"
+      }
+    ]
+  }

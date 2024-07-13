@@ -1,0 +1,54 @@
+{
+    "tests": [
+      {
+        "docstring": "Removes duplicates from a mixed list with multiple duplicates.",
+        "inputs": ["10 5 11 2 3 5 8 9 3 4 2"],
+        "expected_output": "2 3 4 5 8 9 10 11"
+      },
+      {
+        "docstring": "Removes duplicates from a list where all elements are the same.",
+        "inputs": ["1 1 1 1 1 1"],
+        "expected_output": "1"
+      },
+      {
+        "docstring": "Removes duplicates from a list that is in descending order.",
+        "inputs": ["5 4 3 2 1"],
+        "expected_output": "1 2 3 4 5"
+      },
+      {
+        "docstring": "Removes duplicates from a list with pairs of duplicates.",
+        "inputs": ["2 2 3 3 4 4 5 5"],
+        "expected_output": "2 3 4 5"
+      },
+      {
+        "docstring": "Removes duplicates from a list with negative and positive integers.",
+        "inputs": ["-1 -2 -2 0 1 1"],
+        "expected_output": "-2 -1 0 1"
+      },
+      {
+        "docstring": "Removes duplicates from a list with a single element.",
+        "inputs": ["7"],
+        "expected_output": "7"
+      },
+      {
+        "docstring": "Removes duplicates from an empty list.",
+        "inputs": [""],
+        "expected_output": ""
+      },
+      {
+        "docstring": "Removes duplicates from a list with non-sequential duplicates.",
+        "inputs": ["1 3 5 7 9 1 3 5"],
+        "expected_output": "1 3 5 7 9"
+      },
+      {
+        "docstring": "Removes duplicates from a list with large numbers.",
+        "inputs": ["1000 2000 3000 2000 1000"],
+        "expected_output": "1000 2000 3000"
+      },
+      {
+        "docstring": "Removes duplicates from a list with a mix of single and duplicate integers.",
+        "inputs": ["2 3 4 5 6 6 7 8 9 9"],
+        "expected_output": "2 3 4 5 6 7 8 9"
+      }
+    ]
+  }

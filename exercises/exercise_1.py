@@ -6,4 +6,4 @@ days = {"0": "Sunday",
         "5": "Friday", 
         "6": "Saturday"}
 
-print(days[input()])
+print(days.get(input(), ""))

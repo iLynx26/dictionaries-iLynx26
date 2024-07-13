@@ -1,0 +1,54 @@
+{
+    "tests": [
+      {
+        "docstring": "Counts previous occurrences of words in a line with multiple repetitions.",
+        "inputs": ["var list set tuple list tuple tuple dict var"],
+        "expected_output": "0 0 0 0 1 1 2 0 1"
+      },
+      {
+        "docstring": "Counts previous occurrences of words in a line with sequential repetitions.",
+        "inputs": ["hello world hello hello world"],
+        "expected_output": "0 0 1 2 1"
+      },
+      {
+        "docstring": "Counts previous occurrences of words in a line with evenly distributed repetitions.",
+        "inputs": ["a b c a b c a b c"],
+        "expected_output": "0 0 0 1 1 1 2 2 2"
+      },
+      {
+        "docstring": "Counts previous occurrences of words in a line with mixed repetitions.",
+        "inputs": ["one two one two three two four three"],
+        "expected_output": "0 0 1 1 0 2 0 1"
+      },
+      {
+        "docstring": "Counts previous occurrences of words in a line with no repetitions.",
+        "inputs": ["unique words only here"],
+        "expected_output": "0 0 0 0"
+      },
+      {
+        "docstring": "Counts previous occurrences of words in a line with a single word repeated.",
+        "inputs": ["repeat repeat repeat"],
+        "expected_output": "0 1 2"
+      },
+      {
+        "docstring": "Counts previous occurrences of words in an empty line.",
+        "inputs": [""],
+        "expected_output": ""
+      },
+      {
+        "docstring": "Counts previous occurrences of words in a line with numbers as words.",
+        "inputs": ["1 2 3 1 2 3 1 2 3"],
+        "expected_output": "0 0 0 1 1 1 2 2 2"
+      },
+      {
+        "docstring": "Counts previous occurrences of words in a line with a single word.",
+        "inputs": ["lonely"],
+        "expected_output": "0"
+      },
+      {
+        "docstring": "Counts previous occurrences of words in a line with special characters as words.",
+        "inputs": ["! @ # ! @ #"],
+        "expected_output": "0 0 0 1 1 1"
+      }
+    ]
+  }

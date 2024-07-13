@@ -1,0 +1,54 @@
+{
+    "tests": [
+      {
+        "docstring": "Tests with a mix of uppercase, lowercase, and other characters.",
+        "inputs": ["The quick brown FOX jumps over a lazy DOG"],
+        "expected_output": "UPPER CASE 7\nLOWER CASE 26"
+      },
+      {
+        "docstring": "Tests with a simple greeting.",
+        "inputs": ["Hello World"],
+        "expected_output": "UPPER CASE 2\nLOWER CASE 8"
+      },
+      {
+        "docstring": "Tests with a mix of uppercase and lowercase in programming context.",
+        "inputs": ["PYTHON programming"],
+        "expected_output": "UPPER CASE 6\nLOWER CASE 11"
+      },
+      {
+        "docstring": "Tests with an equal mix of uppercase and lowercase letters.",
+        "inputs": ["ABCdefGHIjklMNO"],
+        "expected_output": "UPPER CASE 9\nLOWER CASE 6"
+      },
+      {
+        "docstring": "Tests with all uppercase letters.",
+        "inputs": ["UPPERCASE"],
+        "expected_output": "UPPER CASE 9\nLOWER CASE 0"
+      },
+      {
+        "docstring": "Tests with all lowercase letters.",
+        "inputs": ["lowercase"],
+        "expected_output": "UPPER CASE 0\nLOWER CASE 9"
+      },
+      {
+        "docstring": "Tests with numbers and letters.",
+        "inputs": ["1234abcdEFGH"],
+        "expected_output": "UPPER CASE 4\nLOWER CASE 4"
+      },
+      {
+        "docstring": "Tests with special characters and spaces.",
+        "inputs": ["!@#$%^&*() ABC abc"],
+        "expected_output": "UPPER CASE 3\nLOWER CASE 3"
+      },
+      {
+        "docstring": "Tests with an empty string.",
+        "inputs": [""],
+        "expected_output": "UPPER CASE 0\nLOWER CASE 0"
+      },
+      {
+        "docstring": "Tests with a long string of mixed characters.",
+        "inputs": ["Long String with MIXED Case Letters"],
+        "expected_output": "UPPER CASE 6\nLOWER CASE 23"
+      }
+    ]
+  }

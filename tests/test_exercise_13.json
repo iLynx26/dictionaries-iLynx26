@@ -1,0 +1,54 @@
+{
+    "tests": [
+      {
+        "docstring": "Detects duplicate in a list with a repeated number at the end.",
+        "inputs": ["1 4 5 0 2 4"],
+        "expected_output": "duplicate list"
+      },
+      {
+        "docstring": "Confirms all numbers are unique in a short list.",
+        "inputs": ["1 6 9 10"],
+        "expected_output": "is unique sequence"
+      },
+      {
+        "docstring": "Detects duplicate in a longer list with the duplicate at the beginning and end.",
+        "inputs": ["2 3 4 5 6 7 8 9 1 2"],
+        "expected_output": "duplicate list"
+      },
+      {
+        "docstring": "Confirms all numbers are unique in a sequential list.",
+        "inputs": ["0 1 2 3 4 5"],
+        "expected_output": "is unique sequence"
+      },
+      {
+        "docstring": "Detects duplicate when all numbers are the same.",
+        "inputs": ["7 7 7 7"],
+        "expected_output": "duplicate list"
+      },
+      {
+        "docstring": "Confirms uniqueness in a list with negative numbers.",
+        "inputs": ["-1 -2 -3 -4"],
+        "expected_output": "is unique sequence"
+      },
+      {
+        "docstring": "Detects duplicate in a list with both positive and negative duplicates.",
+        "inputs": ["-1 1 2 3 -1"],
+        "expected_output": "duplicate list"
+      },
+      {
+        "docstring": "Confirms uniqueness in a list with a single number.",
+        "inputs": ["42"],
+        "expected_output": "is unique sequence"
+      },
+      {
+        "docstring": "Detects duplicate in a list with non-sequential duplicates.",
+        "inputs": ["5 6 7 8 9 5 10"],
+        "expected_output": "duplicate list"
+      },
+      {
+        "docstring": "Confirms uniqueness in a mixed list of positive and negative numbers.",
+        "inputs": ["-10 -20 30 40 50"],
+        "expected_output": "is unique sequence"
+      }
+    ]
+  }

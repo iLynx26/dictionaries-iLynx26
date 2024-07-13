@@ -1,0 +1,54 @@
+{
+    "tests": [
+        {
+            "docstring": "Converts 'my_class' to 'MyClass'",
+            "inputs": ["my_class"],
+            "expected_output": "MyClass"
+        },
+        {
+            "docstring": "Converts 'this_is_a_test' to 'ThisIsATest'",
+            "inputs": ["this_is_a_test"],
+            "expected_output": "ThisIsATest"
+        },
+        {
+            "docstring": "Converts 'convert_to_camel' to 'ConvertToCamel'",
+            "inputs": ["convert_to_camel"],
+            "expected_output": "ConvertToCamel"
+        },
+        {
+            "docstring": "Converts 'example_string' to 'ExampleString'",
+            "inputs": ["example_string"],
+            "expected_output": "ExampleString"
+        },
+        {
+            "docstring": "Converts 'underscore_to_camelcase' to 'UnderscoreToCamelcase'",
+            "inputs": ["underscore_to_camelcase"],
+            "expected_output": "UnderscoreToCamelcase"
+        },
+        {
+            "docstring": "Converts 'convert_me' to 'ConvertMe'",
+            "inputs": ["convert_me"],
+            "expected_output": "ConvertMe"
+        },
+        {
+            "docstring": "Converts 'test_example_case' to 'TestExampleCase'",
+            "inputs": ["test_example_case"],
+            "expected_output": "TestExampleCase"
+        },
+        {
+            "docstring": "Converts 'python_script' to 'PythonScript'",
+            "inputs": ["python_script"],
+            "expected_output": "PythonScript"
+        },
+        {
+            "docstring": "Converts 'java_to_python' to 'JavaToPython'",
+            "inputs": ["java_to_python"],
+            "expected_output": "JavaToPython"
+        },
+        {
+            "docstring": "Converts 'camel_case_conversion' to 'CamelCaseConversion'",
+            "inputs": ["camel_case_conversion"],
+            "expected_output": "CamelCaseConversion"
+        }
+    ]
+}

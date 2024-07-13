@@ -1,0 +1,54 @@
+{
+    "tests": [
+        {
+            "docstring": "Sorts 'one,moment,please' alphabetically which should be 'moment,one,please'",
+            "inputs": ["one,moment,please"],
+            "expected_output": "moment,one,please"
+        },
+        {
+            "docstring": "Sorts 'banana,apple,kiwi' alphabetically which should be 'apple,banana,kiwi'",
+            "inputs": ["banana,apple,kiwi"],
+            "expected_output": "apple,banana,kiwi"
+        },
+        {
+            "docstring": "Sorts 'sun,moon,star' alphabetically which should be 'moon,star,sun'",
+            "inputs": ["sun,moon,star"],
+            "expected_output": "moon,star,sun"
+        },
+        {
+            "docstring": "Sorts 'dog,cat,bird' alphabetically which should be 'bird,cat,dog'",
+            "inputs": ["dog,cat,bird"],
+            "expected_output": "bird,cat,dog"
+        },
+        {
+            "docstring": "Sorts 'zebra,apple,mango' alphabetically which should be 'apple,mango,zebra'",
+            "inputs": ["zebra,apple,mango"],
+            "expected_output": "apple,mango,zebra"
+        },
+        {
+            "docstring": "Sorts 'grape,orange,banana' alphabetically which should be 'banana,grape,orange'",
+            "inputs": ["grape,orange,banana"],
+            "expected_output": "banana,grape,orange"
+        },
+        {
+            "docstring": "Sorts 'lemon,lime,apple' alphabetically which should be 'apple,lemon,lime'",
+            "inputs": ["lemon,lime,apple"],
+            "expected_output": "apple,lemon,lime"
+        },
+        {
+            "docstring": "Sorts 'strawberry,blueberry,raspberry' alphabetically which should be 'blueberry,raspberry,strawberry'",
+            "inputs": ["strawberry,blueberry,raspberry"],
+            "expected_output": "blueberry,raspberry,strawberry"
+        },
+        {
+            "docstring": "Sorts 'fig,date,pear' alphabetically which should be 'date,fig,pear'",
+            "inputs": ["fig,date,pear"],
+            "expected_output": "date,fig,pear"
+        },
+        {
+            "docstring": "Sorts 'carrot,lettuce,cucumber' alphabetically which should be 'carrot,cucumber,lettuce'",
+            "inputs": ["carrot,lettuce,cucumber"],
+            "expected_output": "carrot,cucumber,lettuce"
+        }
+    ]
+}

@@ -10,5 +10,5 @@ for symbol in string:
     elif symbol.islower() or symbol.isupper():
         count["letters"] += 1
 
-print(f"LETTERS {count['letters']} ")
-print(f"DIGITS {count['digits']} ")
+print(f"LETTERS {count['letters']}")
+print(f"DIGITS {count['digits']}")

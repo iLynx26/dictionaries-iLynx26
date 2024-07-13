@@ -1,0 +1,54 @@
+{
+    "tests": [
+      {
+        "docstring": "Test with uppercase letter at the start of the alphabet.",
+        "inputs": "A",
+        "expected_output": ".-"
+      },
+      {
+        "docstring": "Test with lowercase letter at the end of the alphabet.",
+        "inputs": "z",
+        "expected_output": "--.."
+      },
+      {
+        "docstring": "Test with uppercase letter in the middle of the alphabet.",
+        "inputs": "M",
+        "expected_output": "--"
+      },
+      {
+        "docstring": "Test with lowercase letter in the middle of the alphabet.",
+        "inputs": "n",
+        "expected_output": "-."
+      },
+      {
+        "docstring": "Test with letter that has a longer Morse code.",
+        "inputs": "Q",
+        "expected_output": "--.-"
+      },
+      {
+        "docstring": "Test with letter that has a shorter Morse code.",
+        "inputs": "E",
+        "expected_output": "."
+      },
+      {
+        "docstring": "Test with numeric input (invalid).",
+        "inputs": "1",
+        "expected_output": "Invalid input"
+      },
+      {
+        "docstring": "Test with special character input (invalid).",
+        "inputs": "@",
+        "expected_output": "Invalid input"
+      },
+      {
+        "docstring": "Test with empty string input (invalid).",
+        "inputs": "",
+        "expected_output": "Invalid input"
+      },
+      {
+        "docstring": "Test with multiple characters input (invalid).",
+        "inputs": "AB",
+        "expected_output": "Invalid input"
+      }
+    ]
+  }

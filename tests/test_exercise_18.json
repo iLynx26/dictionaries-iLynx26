@@ -1,0 +1,54 @@
+{
+    "tests": [
+        {
+            "docstring": "Swaps min and max in '5 6 8 1 4 9 12' which should be '5 6 8 12 4 9 1'",
+            "inputs": ["5 6 8 1 4 9 12"],
+            "expected_output": "5 6 8 12 4 9 1"
+        },
+        {
+            "docstring": "Swaps min and max in '2 3 1 5 4' which should be '2 3 5 1 4'",
+            "inputs": ["2 3 1 5 4"],
+            "expected_output": "2 3 5 1 4"
+        },
+        {
+            "docstring": "Swaps min and max in '7 6 5 4 3' which should be '3 6 5 4 7'",
+            "inputs": ["7 6 5 4 3"],
+            "expected_output": "3 6 5 4 7"
+        },
+        {
+            "docstring": "Swaps min and max in '10 20 30 40 50' which should be '50 20 30 40 10'",
+            "inputs": ["10 20 30 40 50"],
+            "expected_output": "50 20 30 40 10"
+        },
+        {
+            "docstring": "Swaps min and max in '5 3 9 1 7' which should be '5 3 9 7 1'",
+            "inputs": ["5 3 9 1 7"],
+            "expected_output": "5 3 9 7 1"
+        },
+        {
+            "docstring": "Swaps min and max in '15 25 35 45 55' which should be '55 25 35 45 15'",
+            "inputs": ["15 25 35 45 55"],
+            "expected_output": "55 25 35 45 15"
+        },
+        {
+            "docstring": "Swaps min and max in '7 8 9 10 1' which should be '7 8 9 10 1'",
+            "inputs": ["7 8 9 10 1"],
+            "expected_output": "1 8 9 10 7"
+        },
+        {
+            "docstring": "Swaps min and max in '4 5 6 3 2' which should be '2 5 6 3 4'",
+            "inputs": ["4 5 6 3 2"],
+            "expected_output": "2 5 6 3 4"
+        },
+        {
+            "docstring": "Swaps min and max in '12 11 10 9 8' which should be '8 11 10 9 12'",
+            "inputs": ["12 11 10 9 8"],
+            "expected_output": "8 11 10 9 12"
+        },
+        {
+            "docstring": "Swaps min and max in '22 33 44 55 66' which should be '66 33 44 55 22'",
+            "inputs": ["22 33 44 55 66"],
+            "expected_output": "66 33 44 55 22"
+        }
+    ]
+}

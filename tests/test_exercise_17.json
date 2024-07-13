@@ -1,0 +1,54 @@
+{
+    "tests": [
+        {
+            "docstring": "Formats '4, 3, 2019' to '4/3/2019'",
+            "inputs": ["4, 3, 2019"],
+            "expected_output": "4/3/2019"
+        },
+        {
+            "docstring": "Formats '12, 5, 2020' to '12/5/2020'",
+            "inputs": ["12, 5, 2020"],
+            "expected_output": "12/5/2020"
+        },
+        {
+            "docstring": "Formats '25, 12, 2021' to '25/12/2021'",
+            "inputs": ["25, 12, 2021"],
+            "expected_output": "25/12/2021"
+        },
+        {
+            "docstring": "Formats '1, 1, 2022' to '1/1/2022'",
+            "inputs": ["1, 1, 2022"],
+            "expected_output": "1/1/2022"
+        },
+        {
+            "docstring": "Formats '10, 11, 2023' to '10/11/2023'",
+            "inputs": ["10, 11, 2023"],
+            "expected_output": "10/11/2023"
+        },
+        {
+            "docstring": "Formats '5, 6, 2018' to '5/6/2018'",
+            "inputs": ["5, 6, 2018"],
+            "expected_output": "5/6/2018"
+        },
+        {
+            "docstring": "Formats '20, 10, 2017' to '20/10/2017'",
+            "inputs": ["20, 10, 2017"],
+            "expected_output": "20/10/2017"
+        },
+        {
+            "docstring": "Formats '7, 8, 2025' to '7/8/2025'",
+            "inputs": ["7, 8, 2025"],
+            "expected_output": "7/8/2025"
+        },
+        {
+            "docstring": "Formats '15, 4, 2026' to '15/4/2026'",
+            "inputs": ["15, 4, 2026"],
+            "expected_output": "15/4/2026"
+        },
+        {
+            "docstring": "Formats '2, 2, 2024' to '2/2/2024'",
+            "inputs": ["2, 2, 2024"],
+            "expected_output": "2/2/2024"
+        }
+    ]
+}

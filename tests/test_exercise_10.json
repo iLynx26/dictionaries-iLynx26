@@ -1,0 +1,54 @@
+{
+    "tests": [
+      {
+        "docstring": "Finds the synonym for a word with multiple synonym pairs.",
+        "inputs": ["3", "Solar Heliac", "Day Daytime", "Arrive Occur", "Heliac"],
+        "expected_output": "Solar"
+      },
+      {
+        "docstring": "Finds the synonym for a word with two synonym pairs.",
+        "inputs": ["2", "Happy Joyful", "Sad Unhappy", "Joyful"],
+        "expected_output": "Happy"
+      },
+      {
+        "docstring": "Finds the synonym for a word in a list with mixed synonym pairs.",
+        "inputs": ["4", "Big Large", "Small Tiny", "Fast Quick", "Smart Intelligent", "Quick"],
+        "expected_output": "Fast"
+      },
+      {
+        "docstring": "Finds the synonym for a word with a single synonym pair.",
+        "inputs": ["1", "Hot Warm", "Warm"],
+        "expected_output": "Hot"
+      },
+      {
+        "docstring": "Finds the synonym for a word where the synonym is the first word in the pair.",
+        "inputs": ["2", "Begin Start", "End Finish", "Start"],
+        "expected_output": "Begin"
+      },
+      {
+        "docstring": "Finds the synonym for a word where the synonym is the second word in the pair.",
+        "inputs": ["3", "Light Bright", "Dark Gloomy", "Heavy Light", "Gloomy"],
+        "expected_output": "Dark"
+      },
+      {
+        "docstring": "Finds the synonym for a word with synonym pairs containing multi-word phrases.",
+        "inputs": ["2", "Take off Depart", "Land Arrive", "Depart"],
+        "expected_output": "Take off"
+      },
+      {
+        "docstring": "Finds the synonym for a word with synonym pairs and the word is a common term.",
+        "inputs": ["3", "Cool Chill", "Warm Cozy", "Exciting Thrilling", "Chill"],
+        "expected_output": "Cool"
+      },
+      {
+        "docstring": "Finds the synonym for a word with synonym pairs including antonyms.",
+        "inputs": ["2", "Empty Full", "Full Empty", "Empty"],
+        "expected_output": "Full"
+      },
+      {
+        "docstring": "Finds the synonym for a word with synonym pairs including technical terms.",
+        "inputs": ["2", "Function Method", "Variable Parameter", "Method"],
+        "expected_output": "Function"
+      }
+    ]
+  }
